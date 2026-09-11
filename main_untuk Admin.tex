@@ -1,0 +1,2397 @@
+
+\documentclass[aspectratio=169,14pt]{beamer}
+
+% =========================================================
+% PAGE SIZE
+% =========================================================
+
+\geometry{
+    paperwidth=16in,
+    paperheight=7.5in
+}
+
+% =========================================================
+% PACKAGES
+% =========================================================
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning,calc}
+\usepackage{ragged2e}
+\usepackage{amssymb}
+
+% =========================================================
+% THEME
+% =========================================================
+
+\usetheme{default}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[circle]
+
+% =========================================================
+% COLORS
+% =========================================================
+
+\definecolor{Primary}{HTML}{1565C0}
+\definecolor{PrimaryDark}{HTML}{0D47A1}
+\definecolor{Secondary}{HTML}{E3F2FD}
+
+\definecolor{Success}{HTML}{2E7D32}
+\definecolor{SuccessLight}{HTML}{E8F5E9}
+
+\definecolor{Warning}{HTML}{F9A825}
+\definecolor{WarningLight}{HTML}{FFF8E1}
+
+\definecolor{Danger}{HTML}{C62828}
+\definecolor{DangerLight}{HTML}{FFEBEE}
+
+\definecolor{Dark}{HTML}{263238}
+\definecolor{MediumGray}{HTML}{607D8B}
+\definecolor{LightGray}{HTML}{ECEFF1}
+\definecolor{StepGray}{HTML}{78909C}
+
+% =========================================================
+% GLOBAL TYPOGRAPHY
+% =========================================================
+
+\setbeamercolor{normal text}{
+    fg=Dark,
+    bg=white
+}
+
+\setbeamercolor{frametitle}{
+    fg=PrimaryDark
+}
+
+\setbeamercolor{structure}{
+    fg=Primary
+}
+
+\setbeamercolor{alerted text}{
+    fg=Danger
+}
+
+\setlength{\parindent}{0pt}
+
+% =========================================================
+% GLOBAL SPACING
+% =========================================================
+
+\newlength{\TutorialGap}
+\setlength{\TutorialGap}{0.12cm}
+
+\newlength{\SectionGap}
+\setlength{\SectionGap}{0.25cm}
+
+% =========================================================
+% FRAME TITLE
+% =========================================================
+
+\setbeamertemplate{frametitle}{
+    \vspace{0.22cm}
+
+    \noindent
+    {\color{PrimaryDark}
+    \fontsize{25}{30}\selectfont
+    \bfseries
+    \insertframetitle}
+
+    \vspace{0.10cm}
+
+    {\color{Primary}
+    \rule{\textwidth}{1.1pt}}
+
+    \vspace{0.08cm}
+}
+
+% =========================================================
+% FOOTER
+% =========================================================
+
+\setbeamertemplate{footline}{
+    \leavevmode
+    \hbox{
+
+        \begin{beamercolorbox}[
+            wd=.82\paperwidth,
+            ht=0.50cm,
+            dp=0.15cm,
+            leftskip=.42cm
+        ]{author in head/foot}
+
+            \fontsize{10}{12}\selectfont
+            \textbf{TJI INVENTORY NON DAGANG}
+
+        \end{beamercolorbox}
+
+        \begin{beamercolorbox}[
+            wd=.18\paperwidth,
+            ht=0.50cm,
+            dp=0.15cm,
+            center
+        ]{date in head/foot}
+
+            \fontsize{10}{12}\selectfont
+            \insertframenumber/\inserttotalframenumber
+
+        \end{beamercolorbox}
+
+    }
+}
+
+% =========================================================
+% SECTION LABEL
+% =========================================================
+
+\newcommand{\sectionlabel}[1]{
+    {\fontsize{20}{24}\selectfont
+    \textbf{\color{Primary}#1}}
+}
+
+% =========================================================
+% INFO BOX
+% =========================================================
+
+\newcommand{\infobox}[2]{
+    \begin{tikzpicture}
+        \node[
+            draw=Primary,
+            line width=1pt,
+            fill=Secondary,
+            rounded corners=6pt,
+            inner xsep=12pt,
+            inner ysep=9pt,
+            text width=\dimexpr\linewidth-24pt\relax,
+            align=left
+        ]{
+            {\fontsize{17}{21}\selectfont
+            \textbf{\color{Primary}#1}}
+
+            \\[4pt]
+
+            {\fontsize{15.5}{20}\selectfont
+            #2}
+        };
+    \end{tikzpicture}
+}
+
+% =========================================================
+% SUCCESS BOX
+% =========================================================
+
+\newcommand{\successbox}[2]{
+    \begin{tikzpicture}
+        \node[
+            draw=Success,
+            line width=1pt,
+            fill=SuccessLight,
+            rounded corners=6pt,
+            inner xsep=12pt,
+            inner ysep=9pt,
+            text width=\dimexpr\linewidth-24pt\relax,
+            align=left
+        ]{
+            {\fontsize{17}{21}\selectfont
+            \textbf{\color{Success}#1}}
+
+            \\[4pt]
+
+            {\fontsize{15.5}{20}\selectfont
+            #2}
+        };
+    \end{tikzpicture}
+}
+
+% =========================================================
+% WARNING BOX
+% =========================================================
+
+\newcommand{\warningbox}[2]{
+    \begin{tikzpicture}
+        \node[
+            draw=Warning,
+            line width=1pt,
+            fill=WarningLight,
+            rounded corners=6pt,
+            inner xsep=12pt,
+            inner ysep=9pt,
+            text width=\dimexpr\linewidth-24pt\relax,
+            align=left
+        ]{
+            {\fontsize{17}{21}\selectfont
+            \textbf{\color{Warning}#1}}
+
+            \\[4pt]
+
+            {\fontsize{15.5}{20}\selectfont
+            #2}
+        };
+    \end{tikzpicture}
+}
+
+% =========================================================
+% SCREENSHOT FRAME
+% =========================================================
+
+\newcommand{\screenshot}[1]{
+    \begin{tikzpicture}
+
+        \node[
+            draw=LightGray,
+            line width=1pt,
+            rounded corners=5pt,
+            inner sep=4pt,
+            fill=white
+        ] (screen)
+        {
+            \includegraphics[
+                width=\linewidth,
+                keepaspectratio
+            ]{#1}
+        };
+
+    \end{tikzpicture}
+}
+
+% =========================================================
+% HIGHLIGHT
+% =========================================================
+
+\newcommand{\highlight}[5]{
+    \only<#1>{
+        \draw[
+            Primary,
+            very thick,
+            rounded corners=4pt
+        ]
+        ($(screen.south west)+(#2,#3)$)
+        rectangle
+        ($(screen.south west)+(#2+#4,#3+#5)$);
+    }
+}
+
+% =========================================================
+% SUCCESS HIGHLIGHT
+% =========================================================
+
+\newcommand{\successhighlight}[5]{
+    \only<#1>{
+        \draw[
+            Success,
+            very thick,
+            rounded corners=4pt
+        ]
+        ($(screen.south west)+(#2,#3)$)
+        rectangle
+        ($(screen.south west)+(#2+#4,#3+#5)$);
+    }
+}
+
+% =========================================================
+% WARNING HIGHLIGHT
+% =========================================================
+
+\newcommand{\warninghighlight}[5]{
+    \only<#1>{
+        \draw[
+            Warning,
+            very thick,
+            rounded corners=4pt
+        ]
+        ($(screen.south west)+(#2,#3)$)
+        rectangle
+        ($(screen.south west)+(#2+#4,#3+#5)$);
+    }
+}
+
+% =========================================================
+% STEP COUNTER
+% =========================================================
+
+\newcommand{\stepcounterdisplay}[2]{
+    \only<#1>{
+        \begin{tikzpicture}
+            \node[
+                fill=Primary,
+                rounded corners=5pt,
+                inner xsep=11pt,
+                inner ysep=5pt,
+                font=\small\bfseries,
+                text=white
+            ]{
+                STEP #1/#2
+            };
+        \end{tikzpicture}
+    }
+}
+
+% =========================================================
+% STEP ITEM
+% =========================================================
+
+\newcommand{\stepitem}[3]{
+
+    \alt<#1>{
+
+        \begin{tikzpicture}
+            \node[
+                fill=Secondary,
+                draw=Primary,
+                line width=1pt,
+                rounded corners=6pt,
+                inner xsep=10pt,
+                inner ysep=8pt,
+                text width=\dimexpr\linewidth-20pt\relax,
+                align=left
+            ]{
+                {\fontsize{16.5}{21}\selectfont
+                \textbf{\color{Primary}#2.}
+                \hspace{0.10cm}
+                \textbf{\color{Dark}#3}}
+            };
+        \end{tikzpicture}
+
+    }{
+
+        {\fontsize{16}{21}\selectfont
+        \textcolor{StepGray}{
+            \textbf{#2.}
+            \hspace{0.10cm}
+            #3
+        }}
+
+    }
+
+}
+
+% =========================================================
+% TUTORIAL HEADER
+% =========================================================
+
+\newcommand{\tutorialheader}[1]{
+
+    \begin{tikzpicture}
+        \node[
+            fill=Primary,
+            rounded corners=5pt,
+            inner xsep=10pt,
+            inner ysep=4pt,
+            font=\small\bfseries,
+            text=white
+        ]{#1};
+    \end{tikzpicture}
+
+}
+
+% =========================================================
+% TITLE INFORMATION
+% =========================================================
+
+\title{
+    \textbf{TJI Inventory Non Dagang}
+}
+
+\subtitle{
+    Admin \& Tutorial
+}
+
+\author{
+    PT Timur Jaya Indo Steel
+}
+
+\date{
+    2026
+}
+
+% =========================================================
+% DOCUMENT
+% =========================================================
+
+\begin{document}
+
+% =========================================================
+% COVER
+% =========================================================
+
+{
+\setbeamertemplate{footline}{}
+
+\begin{frame}
+
+\begin{tikzpicture}[remember picture,overlay]
+
+    % Background
+    \fill[
+        PrimaryDark
+    ]
+    (current page.south west)
+    rectangle
+    (current page.north east);
+
+    % Main diagonal
+    \fill[
+        Primary,
+        opacity=0.95
+    ]
+    (current page.south east)
+    --
+    (current page.north east)
+    --
+    ([xshift=-5.5cm]current page.north east)
+    --
+    ([xshift=-2cm]current page.south east)
+    --
+    cycle;
+
+    % Secondary diagonal
+    \fill[
+        white,
+        opacity=0.06
+    ]
+    (current page.south east)
+    --
+    (current page.north east)
+    --
+    ([xshift=-3.2cm]current page.north east)
+    --
+    ([xshift=-0.8cm]current page.south east)
+    --
+    cycle;
+
+    % Accent line
+    \draw[
+        white,
+        opacity=0.4,
+        line width=0.8pt
+    ]
+    ([yshift=3.2cm]current page.south west)
+    --
+    ++(4.2cm,0);
+
+    % Logo shadow
+    \node[
+        anchor=north east,
+        xshift=-0.9cm,
+        yshift=-0.9cm,
+        fill=black,
+        opacity=0.15,
+        rounded corners=7pt,
+        minimum width=4.5cm,
+        minimum height=2.05cm
+    ]
+    at (
+        [xshift=0.06cm,yshift=-0.06cm]
+        current page.north east
+    ) {};
+
+    % Logo
+    \node[
+        anchor=north east,
+        xshift=-0.9cm,
+        yshift=-0.9cm,
+        fill=white,
+        rounded corners=7pt,
+        minimum width=4.5cm,
+        minimum height=2.05cm
+    ]
+    at (current page.north east)
+    {
+        \includegraphics[
+            width=9.5
+            cm
+        ]{images/logo-tji-removebg-preview.png}
+    };
+
+\end{tikzpicture}
+
+\vspace{1.35cm}
+
+\begin{flushleft}
+
+\hspace{0.9cm}
+
+{\color{white!75!Primary}
+\fontsize{17}{21}\selectfont
+\textbf{\textsc{Panduan Penggunaan Sistem}}
+}
+
+\vspace{0.30cm}
+
+{\color{white}
+\fontsize{34}{38}\selectfont
+\textbf{TJI INVENTORY}\\[2pt]
+\fontsize{34}{38}\selectfont
+\textbf{NON DAGANG}
+}
+
+\vspace{0.55cm}
+
+{\color{white!90}
+\fontsize{18}{22}\selectfont
+\textit{User Guide \& Tutorial}
+}
+
+\vspace{0.15cm}
+
+{\color{white!75}
+\fontsize{15}{19}\selectfont
+untuk Admin dan Manajemen
+}
+
+\vspace{0.85cm}
+
+{\color{white!80}
+\fontsize{14}{18}\selectfont
+Sistem Online Request dan Manajemen Inventory\\
+Barang Non Dagang
+(Cleaning, ATK, Ban, Cat, dan Seling)
+}
+
+\end{flushleft}
+
+\vfill
+
+\begin{tikzpicture}[remember picture,overlay]
+
+    \draw[
+        white,
+        opacity=0.3,
+        line width=0.6pt
+    ]
+    ([yshift=1.45cm]current page.south west)
+    --
+    ++(\paperwidth-1.8cm,0);
+
+\end{tikzpicture}
+
+\begin{flushleft}
+
+\hspace{0.9cm}
+
+{\color{white}
+\fontsize{14}{18}\selectfont
+\textbf{PT Timur Jaya Indo Steel}
+\hspace{0.3cm}
+{\color{white!60}
+\textbar
+}
+\hspace{0.3cm}
+2026
+}
+
+\end{flushleft}
+
+\vspace{0.65cm}
+
+\end{frame}
+
+}
+
+% =========================================================
+% AGENDA
+% =========================================================
+
+\begin{frame}{Fitur}
+
+\vspace{-0.35cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+% ---------------------------------------------------------
+% LEFT
+% ---------------------------------------------------------
+
+\column{0.31\textwidth}
+
+\sectionlabel{Core Process}
+
+\vspace{0.18cm}
+
+\begin{itemize}
+    \setlength{\itemsep}{0.13cm}
+
+    \item {\fontsize{16.5}{21}\selectfont Login}
+    \item {\fontsize{16.5}{21}\selectfont Dashboard}
+    \item {\fontsize{16.5}{21}\selectfont Request}
+    \item {\fontsize{16.5}{21}\selectfont Approval}
+    \item {\fontsize{16.5}{21}\selectfont Transaction}
+\end{itemize}
+
+% ---------------------------------------------------------
+% CENTER
+% ---------------------------------------------------------
+
+\column{0.31\textwidth}
+
+\sectionlabel{Monitoring}
+
+\vspace{0.18cm}
+
+\begin{itemize}
+    \setlength{\itemsep}{0.13cm}
+
+    \item {\fontsize{16.5}{21}\selectfont Inventory}
+    \item {\fontsize{16.5}{21}\selectfont Stock Mutation}
+    \item {\fontsize{16.5}{21}\selectfont Reports}
+\end{itemize}
+
+% ---------------------------------------------------------
+% RIGHT
+% ---------------------------------------------------------
+
+\column{0.31\textwidth}
+
+\sectionlabel{Support \& Admin}
+
+\vspace{0.18cm}
+
+\begin{itemize}
+    \setlength{\itemsep}{0.13cm}
+
+    \item {\fontsize{16.5}{21}\selectfont Discussion \& Threads}
+    \item {\fontsize{16.5}{21}\selectfont User Management}
+    \item {\fontsize{16.5}{21}\selectfont Announcement}
+\end{itemize}
+
+\end{columns}
+
+\vspace{0.20cm}
+
+\infobox{Tujuan}{
+Tutorial ini menjelaskan cara menggunakan aplikasi
+Inventory Management System dari proses Request
+hingga monitoring Inventory serta beberapa fitur
+penunjang yang dapat digunakan.
+}
+
+\end{frame}
+
+% =========================================================
+% ROLE 1
+% =========================================================
+
+
+\begin{frame}{Role \& Hak Akses --- Request \& Transaction}
+
+\begin{center}
+
+\renewcommand{\arraystretch}{1}
+\setlength{\tabcolsep}{12pt}
+
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+
+\toprule
+
+\textbf{Modul / Submenu}
+&
+\textbf{Karyawan}
+&
+\textbf{Kepala Gudang}
+&
+\textbf{Purchasing}
+&
+\textbf{Auditor}
+&
+\textbf{Admin}
+\\
+
+\midrule
+
+\rowcolor{Primary!12}
+
+\multicolumn{6}{l}{
+\textbf{Request}
+}
+\\
+
+$\rightarrow$ Tambah Permintaan
+& \checkmark & \checkmark & \checkmark & -- & \checkmark
+\\
+
+$\rightarrow$ List Permintaan
+& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark
+\\
+
+$\rightarrow$ Permintaan Saya
+& \checkmark & \checkmark & \checkmark & -- & \checkmark
+\\
+
+$\rightarrow$ Approval Request
+& \checkmark & \checkmark & \checkmark & -- & \checkmark
+\\
+
+$\rightarrow$ Outstanding Request
+& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark
+\\
+
+\rowcolor{Primary!12}
+
+\multicolumn{6}{l}{
+\textbf{Transaction}
+}
+\\
+
+$\rightarrow$ List Transaksi
+& -- & \checkmark & \checkmark & \checkmark & \checkmark
+\\
+
+$\rightarrow$ Goods Receipt
+& -- & \checkmark & -- & -- & \checkmark
+\\
+
+$\rightarrow$ Goods Issue
+& -- & \checkmark & -- & -- & \checkmark
+\\
+
+\bottomrule
+
+\end{tabular}%
+}
+
+\vfill
+
+{\fontsize{13}{16}\selectfont
+\textcolor{MediumGray}{
+\textbf{\checkmark} Full Access
+\hspace{1.0cm}
+\textbf{View} Read Only
+\hspace{1.0cm}
+\textbf{--} No Access
+}}
+
+\end{center}
+
+\end{frame}
+
+
+
+% =========================================================
+% ROLE 2
+% =========================================================
+
+
+\begin{frame}{Role \& Hak Akses --- Inventory, Reports \& Discussion}
+
+\begin{center}
+
+\renewcommand{\arraystretch}{1}
+\setlength{\tabcolsep}{13pt}
+
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+
+\toprule
+
+\textbf{Modul / Submenu}
+&
+\textbf{Karyawan}
+&
+\textbf{Kepala Gudang}
+&
+\textbf{Purchasing}
+&
+\textbf{Auditor}
+&
+\textbf{Admin}
+\\
+
+\midrule
+
+\rowcolor{Primary!12}
+
+\multicolumn{6}{l}{
+\textbf{Inventory}
+}
+\\
+
+$\rightarrow$ Master Item
+& -- & \checkmark & (View) & (View) & \checkmark
+\\
+
+\rowcolor{Primary!12}
+
+\multicolumn{6}{l}{
+\textbf{Reports}
+}
+\\
+
+$\rightarrow$ Current Stock
+& -- & \checkmark & \checkmark & \checkmark & \checkmark
+\\
+
+$\rightarrow$ Stock Closing
+& -- & \checkmark & -- & (View) & \checkmark
+\\
+
+$\rightarrow$ Mutation Report
+& -- & \checkmark & -- & \checkmark & \checkmark
+\\
+
+$\rightarrow$ Histori Request
+& -- & \checkmark & -- & \checkmark & \checkmark
+\\
+
+\rowcolor{Primary!12}
+
+\multicolumn{6}{l}{
+\textbf{Discussion}
+}
+\\
+
+$\rightarrow$ Discussion \& Threads
+& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark
+\\
+
+\bottomrule
+
+\end{tabular}%
+}
+
+\vfill
+
+{\fontsize{13}{16}\selectfont
+\textcolor{MediumGray}{
+\textbf{\checkmark} Full Access
+\hspace{1.0cm}
+\textbf{(View)} Read Only
+\hspace{1.0cm}
+\textbf{--} No Access
+}}
+
+\end{center}
+
+\end{frame}
+
+
+
+% =========================================================
+% ROLE 3
+% =========================================================
+
+\begin{frame}{Role \& Hak Akses --- Inventory, Reports \& Discussion}
+
+\begin{center}
+
+\renewcommand{\arraystretch}{1}
+\setlength{\tabcolsep}{13pt}
+
+\resizebox{\textwidth}{!}{%
+
+\begin{tabular}{lccccc}
+
+\toprule
+
+\textbf{Modul / Submenu}
+&
+\textbf{Karyawan}
+&
+\textbf{Kepala Gudang}
+&
+\textbf{Purchasing}
+&
+\textbf{Auditor}
+&
+\textbf{Admin}
+\\
+
+\midrule
+
+\rowcolor{Primary!12}
+
+\multicolumn{6}{l}{
+\textbf{User \& Access Management}
+}
+\\
+
+$\rightarrow$ User Management
+& -- & -- & -- & -- & \checkmark
+\\
+
+$\rightarrow$ Role-Based Access Control
+& -- & -- & -- & -- & \checkmark
+\\
+
+\rowcolor{Primary!12}
+
+\multicolumn{6}{l}{
+\textbf{Announcement}
+}
+\\
+
+$\rightarrow$ Create, Edit dan Update
+& -- & \checkmark & -- & -- & \checkmark
+\\
+
+$\rightarrow$ View Announcement
+& \checkmark & \checkmark & \checkmark & \checkmark & \checkmark
+\\
+
+\bottomrule
+
+\end{tabular}%
+}
+
+\vfill
+
+{\fontsize{13}{16}\selectfont
+\textcolor{MediumGray}{
+\textbf{\checkmark} Full Access
+\hspace{1.0cm}
+\textbf{(View)} Read Only
+\hspace{1.0cm}
+\textbf{--} No Access
+}}
+
+\end{center}
+
+\end{frame}
+
+% =========================================================
+% LOGIN
+% =========================================================
+
+\begin{frame}{01 --- Login}
+
+\vspace{-0.25cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+% SCREENSHOT
+\column{0.65\textwidth}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    inner sep=0,
+    outer sep=0
+] (screen)
+{
+    \only<1>{
+        \includegraphics[
+            width=0.72\linewidth,
+            keepaspectratio
+        ]{images/Login/login1.png}
+    }
+
+    \only<2>{
+        \includegraphics[
+            width=0.72\linewidth,
+            keepaspectratio
+        ]{images/Login/login2.png}
+    }
+
+    \only<3>{
+        \includegraphics[
+            width=0.72\linewidth,
+            keepaspectratio
+        ]{images/Login/login3.png}
+    }
+
+    \only<4>{
+        \includegraphics[
+            width=0.72\linewidth,
+            keepaspectratio
+        ]{images/Login/login3.png}
+    }
+};
+
+\highlight{1}{1.25cm}{2.55cm}{4.0cm}{0.65cm}
+\highlight{2}{1.25cm}{1.85cm}{4.0cm}{0.65cm}
+\highlight{3}{2.0cm}{0.75cm}{2.7cm}{0.65cm}
+\successhighlight{4}{0.2cm}{0.2cm}{6.0cm}{3.5cm}
+
+\end{tikzpicture}
+
+\end{center}
+
+% GAP
+\column{0.025\textwidth}
+
+% INSTRUCTION
+\column{0.325\textwidth}
+
+\stepcounterdisplay{1}{4}
+\stepcounterdisplay{2}{4}
+\stepcounterdisplay{3}{4}
+\stepcounterdisplay{4}{4}
+
+\vspace{0.02cm}
+
+\sectionlabel{Langkah}
+
+\vspace{0.10cm}
+
+\stepitem{1}{1}{
+Buka aplikasi Inventory Non Dagang di URL
+\texttt{\fontsize{12}{14}\selectfont
+http://172.16.0.193:5173/login}
+}
+
+\vspace{\TutorialGap}
+
+\stepitem{2}{2}{
+Masukkan username.
+}
+
+\vspace{\TutorialGap}
+
+\stepitem{3}{3}{
+Masukkan password.
+}
+
+\vspace{\TutorialGap}
+
+\stepitem{4}{4}{
+Klik \textbf{Masuk}.
+}
+
+\vspace{0.15cm}
+
+\warningbox{Perhatian}{
+Pastikan username dan password sesuai dengan
+akun yang diberikan administrator.
+}
+
+\end{columns}
+
+\end{frame}
+
+% =========================================================
+% DASHBOARD
+% =========================================================
+
+\begin{frame}{02 --- Dashboard}
+
+\vspace{-0.25cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+% SCREENSHOT
+\column{0.65\textwidth}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    inner sep=0,
+    outer sep=0
+] (screen)
+{
+    \only<1>{
+        \includegraphics[
+            width=0.8\linewidth,
+            keepaspectratio
+        ]{images/Dashboard/Dashboard1.png}
+    }
+
+    \only<2>{
+        \includegraphics[
+            width=0.8\linewidth,
+            keepaspectratio
+        ]{images/Dashboard/Dashboard2.png}
+    }
+
+    \only<3>{
+        \includegraphics[
+            width=0.8\linewidth,
+            keepaspectratio
+        ]{images/Dashboard/Dashboard3.png}
+    }
+
+    \only<4>{
+        \includegraphics[
+            width=0.72\linewidth,
+            keepaspectratio
+        ]{images/Dashboard/Dashboard4.png}
+    }
+};
+
+\highlight{1}{1.25cm}{2.55cm}{4.0cm}{0.65cm}
+\highlight{2}{1.25cm}{1.85cm}{4.0cm}{0.65cm}
+\highlight{3}{2.0cm}{0.75cm}{2.7cm}{0.65cm}
+\successhighlight{4}{0.2cm}{0.2cm}{6.0cm}{3.5cm}
+
+\end{tikzpicture}
+
+\end{center}
+
+% GAP
+\column{0.025\textwidth}
+
+% INSTRUCTION
+\column{0.325\textwidth}
+
+\stepcounterdisplay{1}{4}
+\stepcounterdisplay{2}{4}
+\stepcounterdisplay{3}{4}
+\stepcounterdisplay{4}{4}
+
+
+\vspace{0.02cm}
+
+
+\sectionlabel{Langkah}
+
+\vspace{0.10cm}
+
+\stepitem{1}{1}{
+	Setelah login, Anda akan diarahkan ke halaman Dashboard.
+}
+
+\vspace{\TutorialGap}
+
+\stepitem{2}{2}{
+	Pilih periode tanggal, lalu klik \textbf{Terapkan}.
+}
+
+\vspace{\TutorialGap}
+
+\stepitem{3}{3}{
+	Dashboard akan menampilkan statistik dan informasi sesuai periode yang dipilih.
+}
+
+\vspace{\TutorialGap}
+
+\stepitem{4}{4}{
+	Dashboard juga menampilkan 5 request terbaru dari seluruh pengguna. Setiap request dapat diklik untuk melihat detail permintaan.
+}
+
+
+\vspace{0.15cm}
+
+\warningbox{Perhatian}{
+	Statistik Dashboard (\textit{Total IN}, \textit{Total OUT}, \textit{Disetujui}, \textit{Ditolak}, \textit{Menunggu}, dan \textit{Selesai}) serta bagian \textit{5 Request Terbaru} dapat diklik untuk melihat informasi lebih lanjut.
+}
+
+
+
+\end{columns}
+
+\end{frame}
+
+% =========================================================
+% REQUEST FLOW
+% =========================================================
+
+% =========================================================
+% REQUEST FLOW
+% =========================================================
+
+\begin{frame}{03 --- Request}
+	
+	\vspace{-0.05cm}
+	
+	\sectionlabel{Alur Proses Request Secara Umum}
+	
+	\vspace{0.40cm}
+	
+	\begin{center}
+		
+		\begin{tikzpicture}[node distance=0.75cm]
+			
+			% ---------------------------------------------------------
+			% STEP 1
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large
+			]
+			(request)
+			{\textbf{Create Request}};
+			
+			% ---------------------------------------------------------
+			% STEP 2
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large,
+			right=of request
+			]
+			(submit)
+			{\textbf{Kirim}};
+			
+			% ---------------------------------------------------------
+			% STEP 3
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Warning,
+			fill=WarningLight,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large,
+			right=of submit
+			]
+			(approve)
+			{\textbf{Approval}};
+			
+			% ---------------------------------------------------------
+			% STEP 4
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Success,
+			fill=SuccessLight,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large,
+			right=of approve
+			]
+			(ptt)
+			{\textbf{Print Tanda Terima}};
+			
+			% ---------------------------------------------------------
+			% STEP 5
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Success,
+			fill=SuccessLight,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large,
+			right=of ptt
+			]
+			(receive)
+			{\textbf{Terima Barang}};
+			
+			% ---------------------------------------------------------
+			% ARROWS
+			% ---------------------------------------------------------
+			
+			\draw[->,thick]
+			(request) -- (submit);
+			
+			\draw[->,thick]
+			(submit) -- (approve);
+			
+			\draw[->,thick]
+			(approve) -- (ptt);
+			
+			\draw[->,thick]
+			(ptt) -- (receive);
+			
+		\end{tikzpicture}
+		
+	\end{center}
+	
+	\vspace{0.50cm}
+	
+	% =========================================================
+	% STEP 1
+	% =========================================================
+	
+	\only<1>{
+		\infobox{STEP 1 --- Create Request}{
+			Pemohon membuat request barang sesuai dengan kebutuhan,
+			lalu mengisikan data pada Form Aplikasi TJI Inventory Non-Dagang.
+		}
+	}
+	
+	% =========================================================
+	% STEP 2
+	% =========================================================
+	
+	\only<2>{
+		\infobox{STEP 2 --- Kirim}{
+			Request yang telah diisi lengkap dikirim untuk diproses.
+		}
+	}
+	
+	% =========================================================
+	% STEP 3
+	% =========================================================
+	
+	\only<3>{
+		\infobox{STEP 3 --- Approval}{
+			Request diperiksa dan disetujui oleh pihak yang
+			memiliki hak approval.
+		}
+	}
+	
+	% =========================================================
+	% STEP 4
+	% =========================================================
+	
+	\only<4>{
+		\infobox{STEP 4 --- Print Tanda Terima}{
+			Setelah request disetujui (berstatus Disetujui) pemohon mencetak tanda terima sebagai bukti serah terima barang.
+		}
+	}
+	
+	% =========================================================
+	% STEP 5
+	% =========================================================
+	
+	\only<5>{
+		\infobox{STEP 5 --- Terima Barang}{
+			Pemohon menandatangani dan menyerahkan tanda terima, kemudian menerima barang dari petugas.
+		}
+	}
+	
+\end{frame}
+% =========================================================
+% CREATE REQUEST
+% =========================================================
+
+\begin{frame}{03.1 --- Membuat Request/Permohonan Barang Non Dagang}
+	
+	\vspace{-0.25cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		% =========================================================
+		% SCREENSHOT
+		% =========================================================
+		
+		\column{0.65\textwidth}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				inner sep=0,
+				outer sep=0
+				] (screen)
+				{
+					% -----------------------------------------------------
+					% STEP 1
+					% -----------------------------------------------------
+					\only<1>{
+						\includegraphics[
+						width=0.5\linewidth,
+						keepaspectratio
+						]{images/Request/Request.png}
+					}
+					
+					% -----------------------------------------------------
+					% STEP 2
+					% -----------------------------------------------------
+					\only<2>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request2.png}
+					}
+					
+					% -----------------------------------------------------
+					% STEP 3
+					% -----------------------------------------------------
+					\only<3>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request3.png}
+					}
+					
+					% -----------------------------------------------------
+					% STEP 4
+					% -----------------------------------------------------
+					\only<4>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request4.png}
+					}
+					
+					% -----------------------------------------------------
+					% STEP 5--10
+					% -----------------------------------------------------
+					\only<5>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request5.png}
+					}
+					\only<6>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request7.png}
+					}
+					\only<7>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request8.png}
+					}
+					\only<8>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request9.png}
+					}
+					\only<9>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request10.png}
+					}
+					\only<10>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/Request/Request11.png}
+						}				
+				};
+
+				% =========================================================
+				% HIGHLIGHT
+				% =========================================================
+				
+				\highlight{1}{1.25cm}{2.55cm}{4.0cm}{0.65cm}
+				
+				\highlight{2}{1.25cm}{1.85cm}{4.0cm}{0.65cm}
+				
+				\highlight{3}{2.0cm}{0.75cm}{2.7cm}{0.65cm}
+				
+				\successhighlight{4-10}{0.2cm}{0.2cm}{6.0cm}{3.5cm}
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		
+		% =========================================================
+		% GAP
+		% =========================================================
+		
+		\column{0.025\textwidth}
+		
+		
+		% =========================================================
+		% INSTRUCTION
+		% =========================================================
+		
+		\column{0.325\textwidth}
+		
+		\vspace{0.02cm}
+		
+		\sectionlabel{Langkah}
+		
+		\vspace{0.10cm}
+		
+		% ---------------------------------------------------------
+		% STEP 1
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{1}{10}
+		
+		\stepitem{1}{1}{
+			Pilih menu \textbf{Request}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 2
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{2}{10}
+		
+		\stepitem{2}{2}{
+			Pilih \textbf{Tambah Permintaan}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 3
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{3}{10}
+		
+		\stepitem{3}{3}{
+			Isi \textbf{Nama Requester} dengan nama Anda
+			sebagai pemohon, serta isi \textbf{Tujuan Request}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 4
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{4}{10}
+		
+		\stepitem{4}{4}{
+			Pilih \textbf{item} yang diperlukan serta isi QTY yang diperlukan.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 5
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{5}{10}
+		
+		\stepitem{5}{5}{
+			Isi keterangan dengan tujuan penggunaan barang.
+		}
+		
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 6
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{6}{10}
+		
+		\stepitem{6}{6}{
+			Jika ingin menambahkan item, klik $(+)$ Tambah Barang
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 7
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{7}{10}
+		
+		\stepitem{7}{7}{
+			\textcolor{red}{*} Khusus item barang cleaning keterangan wajib diisi dengan Lokasi Cleaning dan Nama Petugas.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 8
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{8}{10}
+		\stepitem{8}{8}{
+			Unggah bukti foto yang menunjukkan kondisi
+			atau urgensi penggunaan barang. 
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 9
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{9}{10}
+		
+		\stepitem{9}{9}{
+			Periksa kembali daftar barang sebelum dikirim.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% ---------------------------------------------------------
+		% STEP 10
+		% ---------------------------------------------------------
+		
+		\stepcounterdisplay{10}{10}
+		
+		\stepitem{10}{10}{
+			Klik \textbf{Buat Request} untuk mengirim permohonan.
+		}
+		
+	\end{columns}
+	
+\end{frame}
+% =========================================================
+% TEMPLATE TUTORIAL
+% =========================================================
+
+\begin{frame}{03.1 --- Setelah Melakukan Request}
+	
+	\vspace{-0.25cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		% =========================================================
+		% SCREENSHOT
+		% =========================================================
+		
+		\column{0.65\textwidth}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				inner sep=0,
+				outer sep=0
+				] (screen)
+				{
+					% -----------------------------------------------------
+					% SCREENSHOT OVERLAY
+					% -----------------------------------------------------
+					
+					\only<1>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/PostRequest/Request10.png}
+					}
+					
+					\only<2>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/PostRequest/Request11.png}
+					}
+					
+					\only<3>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/PostRequest/Request12.png}
+					}
+					
+					\only<4-5>{
+						\includegraphics[
+						width=0.8\linewidth,
+						keepaspectratio
+						]{images/PostRequest/Request13.png}
+					}
+				};
+				
+				% =========================================================
+				% HIGHLIGHT
+				% =========================================================
+				
+				\highlight{1}{Xcm}{Ycm}{Widthcm}{Heightcm}
+				
+				\highlight{2}{Xcm}{Ycm}{Widthcm}{Heightcm}
+				
+				\highlight{3}{Xcm}{Ycm}{Widthcm}{Heightcm}
+				
+				\successhighlight{4-5}{Xcm}{Ycm}{Widthcm}{Heightcm}
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		
+		% =========================================================
+		% GAP
+		% =========================================================
+		
+		\column{0.025\textwidth}
+		
+		
+		% =========================================================
+		% LANGKAH
+		% =========================================================
+		
+		\column{0.325\textwidth}
+		
+		\vspace{0.02cm}
+		
+		\sectionlabel{Langkah}
+		
+		\vspace{0.10cm}
+		
+		% STEP 1
+		\stepcounterdisplay{1}{5}
+		
+		\stepitem{1}{1}{
+			Pilih Request $>$ Permintaan Saya
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% STEP 2
+		\stepcounterdisplay{2}{5}
+		
+		\stepitem{2}{2}{
+    Perhatikan status permohonan. Status \textbf{Menunggu Approval}
+    berarti permintaan sedang diproses oleh petugas. Jika status berubah
+    menjadi \textbf{Approved}, berarti permohonan telah disetujui.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% STEP 3
+		\stepcounterdisplay{3}{5}
+		
+		\stepitem{3}{3}{
+			Pilih Download Tanda Terima.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% STEP 4
+		\stepcounterdisplay{4}{5}
+		
+		\stepitem{4}{4}{
+		Print Tanda Terima format kertas PRS.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		% STEP 5
+		\stepcounterdisplay{5}{5}
+		
+		\stepitem{5}{5}{
+			Saat menerima barang, tandatangani tanda terima pada bagian \textbf{Diterima Oleh}, kemudian serahkan tanda terima tersebut
+			kepada petugas.
+		}
+	\end{columns}
+	
+\end{frame}
+% =========================================================
+% APPROVAL
+% =========================================================
+
+\begin{frame}{03.2 --- Approval}
+
+\vspace{-0.25cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+\column{0.65\textwidth}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    inner sep=0,
+    outer sep=0
+] (screen)
+{
+    \includegraphics[
+        width=\linewidth,
+        keepaspectratio
+    ]{images/approval.png}
+};
+
+\highlight{1}{0.3cm}{2.4cm}{5.5cm}{0.7cm}
+\highlight{2}{0.3cm}{1.75cm}{5.5cm}{0.55cm}
+\highlight{3}{0.3cm}{1.15cm}{5.5cm}{0.55cm}
+\successhighlight{4}{3.8cm}{0.25cm}{1.4cm}{0.6cm}
+\highlight{5}{5.2cm}{0.25cm}{1.2cm}{0.6cm}
+
+\end{tikzpicture}
+
+\end{center}
+
+\column{0.025\textwidth}
+
+\column{0.325\textwidth}
+
+\stepcounterdisplay{1}{5}
+\stepcounterdisplay{2}{5}
+\stepcounterdisplay{3}{5}
+\stepcounterdisplay{4}{5}
+\stepcounterdisplay{5}{5}
+
+\sectionlabel{Approver}
+
+\vspace{0.08cm}
+
+\stepitem{1}{1}{Buka detail request.}
+
+\vspace{\TutorialGap}
+
+\stepitem{2}{2}{Periksa item yang diminta.}
+
+\vspace{\TutorialGap}
+
+\stepitem{3}{3}{Periksa quantity.}
+
+\vspace{\TutorialGap}
+
+\stepitem{4}{4}{Klik \textbf{Approve}.}
+
+\vspace{\TutorialGap}
+
+\stepitem{5}{5}{Klik \textbf{Reject} jika request tidak sesuai.}
+
+\vspace{0.12cm}
+
+\only<4>{
+\successbox{Approved}{
+Request telah disetujui dan dapat diproses oleh warehouse.
+}
+}
+
+\end{columns}
+
+\end{frame}
+
+% =========================================================
+% GOODS RECEIPT
+% =========================================================
+
+\begin{frame}{04 --- Goods Receipt (GR)}
+
+\vspace{-0.25cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+\column{0.65\textwidth}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    inner sep=0,
+    outer sep=0
+] (screen)
+{
+    \includegraphics[
+        width=\linewidth,
+        keepaspectratio
+    ]{images/goods-receipt.png}
+};
+
+\highlight{1}{0.3cm}{2.5cm}{6.5cm}{0.55cm}
+\highlight{2}{0.3cm}{1.85cm}{6.5cm}{0.55cm}
+\highlight{3}{0.3cm}{1.2cm}{6.5cm}{0.55cm}
+\highlight{4}{0.3cm}{0.55cm}{6.5cm}{0.55cm}
+\successhighlight{5}{5.0cm}{0.15cm}{1.6cm}{0.55cm}
+
+\end{tikzpicture}
+
+\end{center}
+
+\column{0.025\textwidth}
+
+\column{0.325\textwidth}
+
+\stepcounterdisplay{1}{5}
+\stepcounterdisplay{2}{5}
+\stepcounterdisplay{3}{5}
+\stepcounterdisplay{4}{5}
+\stepcounterdisplay{5}{5}
+
+\sectionlabel{Langkah}
+
+\vspace{0.08cm}
+
+\stepitem{1}{1}{Pilih Request $>$ \textbf{Permintaan Saya}.}
+
+\vspace{\TutorialGap}
+
+\stepitem{2}{2}{Pilih supplier.}
+
+\vspace{\TutorialGap}
+
+\stepitem{3}{3}{Tentukan warehouse tujuan.}
+
+\vspace{\TutorialGap}
+
+\stepitem{4}{4}{Masukkan quantity barang masuk.}
+
+\vspace{\TutorialGap}
+
+\stepitem{5}{5}{Simpan transaksi.}
+
+\end{columns}
+
+\end{frame}
+
+% =========================================================
+% GOODS ISSUE
+% =========================================================
+
+\begin{frame}{05 --- Goods Issue (GI)}
+
+\vspace{-0.25cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+\column{0.65\textwidth}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    inner sep=0,
+    outer sep=0
+] (screen)
+{
+    \includegraphics[
+        width=\linewidth,
+        keepaspectratio
+    ]{images/goods-issue.png}
+};
+
+\highlight{1}{0.25cm}{2.55cm}{6.0cm}{0.55cm}
+\highlight{2}{0.25cm}{1.9cm}{6.0cm}{0.55cm}
+\highlight{3}{0.25cm}{1.25cm}{6.0cm}{0.55cm}
+\highlight{4}{0.25cm}{0.6cm}{6.0cm}{0.55cm}
+\successhighlight{5}{4.2cm}{0.15cm}{1.6cm}{0.55cm}
+
+\end{tikzpicture}
+
+\end{center}
+
+\column{0.025\textwidth}
+
+\column{0.325\textwidth}
+
+\stepcounterdisplay{1}{5}
+\stepcounterdisplay{2}{5}
+\stepcounterdisplay{3}{5}
+\stepcounterdisplay{4}{5}
+\stepcounterdisplay{5}{5}
+
+\sectionlabel{Langkah}
+
+\vspace{0.08cm}
+
+\stepitem{1}{1}{Buka menu \textbf{Goods Issue}.}
+
+\vspace{\TutorialGap}
+
+\stepitem{2}{2}{Pilih request yang telah \textbf{APPROVED}.}
+
+\vspace{\TutorialGap}
+
+\stepitem{3}{3}{Periksa outstanding quantity.}
+
+\vspace{\TutorialGap}
+
+\stepitem{4}{4}{Pastikan stock mencukupi.}
+
+\vspace{\TutorialGap}
+
+\stepitem{5}{5}{Simpan transaksi Goods Issue.}
+
+\vspace{0.12cm}
+
+\warningbox{Validasi}{
+GI tidak dapat dilakukan jika stock tidak mencukupi.
+}
+
+\end{columns}
+
+\end{frame}
+
+% =========================================================
+% INVENTORY
+% =========================================================
+
+\begin{frame}{06 --- Inventory}
+
+\vspace{-0.25cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+\column{0.65\textwidth}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    inner sep=0,
+    outer sep=0
+] (screen)
+{
+    \includegraphics[
+        width=\linewidth,
+        keepaspectratio
+    ]{images/current-stock.png}
+};
+
+\highlight{1}{0.2cm}{2.4cm}{6.5cm}{0.7cm}
+\highlight{2}{0.2cm}{1.3cm}{6.5cm}{0.8cm}
+\highlight{3}{0.2cm}{0.3cm}{6.5cm}{0.7cm}
+
+\end{tikzpicture}
+
+\end{center}
+
+\column{0.025\textwidth}
+
+\column{0.325\textwidth}
+
+\stepcounterdisplay{1}{3}
+\stepcounterdisplay{2}{3}
+\stepcounterdisplay{3}{3}
+
+\sectionlabel{Inventory}
+
+\vspace{0.08cm}
+
+\stepitem{1}{1}{
+Pilih warehouse yang ingin diperiksa.
+}
+
+\vspace{\TutorialGap}
+
+\stepitem{2}{2}{
+Cari item yang diperlukan.
+}
+
+\vspace{\TutorialGap}
+
+\stepitem{3}{3}{
+Periksa quantity current stock.
+}
+
+\vspace{0.20cm}
+
+{\fontsize{19}{23}\selectfont
+\textbf{\color{Primary}Stock Mutation}
+}
+
+\vspace{0.08cm}
+
+{\fontsize{15.5}{20}\selectfont
+
+Histori perubahan stock akibat transaksi
+\textbf{IN} dan \textbf{OUT} dapat digunakan
+untuk melakukan penelusuran transaksi.
+
+}
+
+\end{columns}
+
+\end{frame}
+
+% =========================================================
+% REPORT
+% =========================================================
+
+\begin{frame}{07 --- Reports}
+
+\vspace{-0.25cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+\column{0.65\textwidth}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    inner sep=0,
+    outer sep=0
+] (screen)
+{
+    \includegraphics[
+        width=\linewidth,
+        keepaspectratio
+    ]{images/report.png}
+};
+
+\highlight{1}{0.2cm}{2.55cm}{8.0cm}{0.65cm}
+\highlight{2}{0.2cm}{1.8cm}{3.8cm}{0.55cm}
+\highlight{3}{4.2cm}{1.8cm}{4.0cm}{0.55cm}
+\highlight{4}{0.2cm}{1.0cm}{8.0cm}{0.65cm}
+\highlight{5}{0.2cm}{0.25cm}{8.0cm}{0.55cm}
+
+\end{tikzpicture}
+
+\end{center}
+
+\column{0.025\textwidth}
+
+\column{0.325\textwidth}
+
+\stepcounterdisplay{1}{5}
+\stepcounterdisplay{2}{5}
+\stepcounterdisplay{3}{5}
+\stepcounterdisplay{4}{5}
+\stepcounterdisplay{5}{5}
+
+\sectionlabel{Langkah}
+
+\vspace{0.08cm}
+
+\stepitem{1}{1}{Buka menu \textbf{Reports}.}
+
+\vspace{\TutorialGap}
+
+\stepitem{2}{2}{Tentukan periode laporan.}
+
+\vspace{\TutorialGap}
+
+\stepitem{3}{3}{Pilih warehouse.}
+
+\vspace{\TutorialGap}
+
+\stepitem{4}{4}{Periksa data IN dan OUT.}
+
+\vspace{\TutorialGap}
+
+\stepitem{5}{5}{Gunakan hasil laporan untuk monitoring inventory.}
+
+\end{columns}
+
+\end{frame}
+
+% =========================================================
+% DISCUSSION
+% =========================================================
+
+\begin{frame}{08 --- Discussion}
+
+\vspace{-0.25cm}
+
+\begin{columns}[T,totalwidth=\textwidth]
+
+\column{0.65\textwidth}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    inner sep=0,
+    outer sep=0
+] (screen)
+{
+    \includegraphics[
+        width=\linewidth,
+        keepaspectratio
+    ]{images/discussion.png}
+};
+
+\highlight{1}{0.2cm}{2.45cm}{6.8cm}{0.65cm}
+\highlight{2}{0.2cm}{1.65cm}{6.8cm}{0.65cm}
+\highlight{3}{0.2cm}{0.85cm}{6.8cm}{0.65cm}
+\successhighlight{4}{5.0cm}{0.15cm}{1.5cm}{0.55cm}
+
+\end{tikzpicture}
+
+\end{center}
+
+\column{0.025\textwidth}
+
+\column{0.325\textwidth}
+
+\stepcounterdisplay{1}{4}
+\stepcounterdisplay{2}{4}
+\stepcounterdisplay{3}{4}
+\stepcounterdisplay{4}{4}
+
+\sectionlabel{Langkah}
+
+\vspace{0.08cm}
+
+\stepitem{1}{1}{Buka menu \textbf{Discussion}.}
+
+\vspace{\TutorialGap}
+
+\stepitem{2}{2}{Pilih thread yang relevan.}
+
+\vspace{\TutorialGap}
+
+\stepitem{3}{3}{Baca atau tambahkan pesan diskusi.}
+
+\vspace{\TutorialGap}
+
+\stepitem{4}{4}{Gunakan discussion untuk koordinasi operasional.}
+
+\end{columns}
+
+\end{frame}
+
+% =========================================================
+% TROUBLESHOOTING
+% =========================================================
+
+\begin{frame}{09 --- Troubleshooting}
+
+\vspace{-0.25cm}
+
+\begin{center}
+
+\fontsize{15.5}{20}\selectfont
+
+\renewcommand{\arraystretch}{1.55}
+
+\begin{tabular}{
+    p{0.34\textwidth}
+    p{0.54\textwidth}
+}
+
+\toprule
+
+\textbf{Masalah}
+&
+\textbf{Solusi}
+\\
+
+\midrule
+
+Tidak dapat login
+&
+Periksa username dan password.
+\\
+
+Request tidak dapat dibuat
+&
+Pastikan seluruh field wajib telah diisi.
+\\
+
+GI tidak dapat dilakukan
+&
+Pastikan request APPROVED dan stock mencukupi.
+\\
+
+Stock tidak sesuai
+&
+Periksa Stock Mutation dan transaksi terkait.
+\\
+
+\bottomrule
+
+\end{tabular}
+
+\end{center}
+
+\end{frame}
+
+% =========================================================
+% FAQ
+% =========================================================
+
+\begin{frame}{10 --- FAQ}
+
+\vspace{-0.10cm}
+
+{\fontsize{18}{23}\selectfont
+
+\textbf{\color{Primary}
+Q: Mengapa GI saya tidak dapat diproses?
+}
+
+\vspace{0.12cm}
+
+{\fontsize{16}{21}\selectfont
+Pastikan request telah berstatus
+\textbf{APPROVED} dan quantity stock mencukupi.
+}
+
+\vspace{0.48cm}
+
+\textbf{\color{Primary}
+Q: Apakah satu request bisa memiliki beberapa GI?
+}
+
+\vspace{0.12cm}
+
+{\fontsize{16}{21}\selectfont
+Ya. Selama masih terdapat outstanding quantity,
+request dapat diproses kembali.
+}
+
+\vspace{0.48cm}
+
+\textbf{\color{Primary}
+Q: Bagaimana mengetahui histori perubahan stock?
+}
+
+\vspace{0.12cm}
+
+{\fontsize{16}{21}\selectfont
+Gunakan menu \textbf{Stock Mutation}.
+}
+
+}
+
+\end{frame}
+
+% =========================================================
+% CLOSING
+% =========================================================
+
+{
+\setbeamertemplate{footline}{}
+
+\begin{frame}
+
+\centering
+
+\vspace{1.15cm}
+
+{\fontsize{38}{44}\selectfont
+\textbf{\color{Primary}THANK YOU}
+}
+
+\vspace{0.55cm}
+
+{\fontsize{22}{27}\selectfont
+TJI Inventory Non Dagang
+}
+
+\vspace{0.85cm}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\node[
+    draw=Primary,
+    line width=1pt,
+    fill=Secondary,
+    rounded corners=6pt,
+    inner xsep=18pt,
+    inner ysep=12pt,
+    text width=0.65\textwidth,
+    align=center
+]{
+
+{\fontsize{18}{22}\selectfont
+\textbf{\color{Primary}Need Help?}}
+
+\\[5pt]
+
+{\fontsize{15.5}{20}\selectfont
+Hubungi administrator aplikasi apabila mengalami
+kendala dalam penggunaan sistem.
+}
+
+};
+
+\end{tikzpicture}
+
+\end{center}
+
+\vfill
+
+{\fontsize{14}{18}\selectfont
+PT Timur Jaya Indo Steel -- 2026
+}
+
+\vspace{0.45cm}
+
+\end{frame}
+
+}
+
+\end{document}
+
