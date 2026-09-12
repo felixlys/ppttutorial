@@ -1185,7 +1185,7 @@ akun yang diberikan administrator.
 % REQUEST FLOW
 % =========================================================
 
-\begin{frame}{03 --- Request}
+\begin{frame}{Prosedur Permohonan}
 	
 	\vspace{-0.05cm}
 	
@@ -1763,165 +1763,641 @@ akun yang diberikan administrator.
 	\end{columns}
 	
 \end{frame}
+\begin{frame}{Attention}
+	
+	\vfill
+	
+	\begin{center}
+		
+		\begin{minipage}{0.90\textwidth}
+			
+			\warningbox{Perlu Diperhatikan}{
+				\large
+				\begin{itemize}
+					\item Satu request hanya dapat berisi barang dari satu kategori.\\
+					Contoh: barang Cleaning dan ATK tidak dapat digabungkan dalam satu request.
+					
+					\vspace{0.25cm}
+					
+					\item Pada perangkat Android, iOS, dan Tablet, bukti foto dapat diunggah langsung menggunakan kamera perangkat. Pada versi Desktop, bukti foto dapat diunggah dalam format JPG, PNG, atau WEBP.
+				\end{itemize}
+			}
+			
+		\end{minipage}
+		
+	\end{center}
+	
+	\vfill
+	
+\end{frame}
+
+
+% =========================================================
+% AKTIVASI IZIN KAMERA CHROME ANDROID
+% =========================================================
+
+\begin{frame}{Aktivasi Izin Kamera --- Chrome Android}
+	
+	\vspace{-0.15cm}
+	
+	\begin{center}
+		
+		\begin{minipage}{0.92\textwidth}
+			
+			\warningbox{Attention}{
+				\large
+				Kamera diperlukan untuk mengambil atau mengunggah
+				\textbf{bukti foto} pada proses request.
+				
+				\vspace{0.15cm}
+				
+				Jika kamera tidak dapat digunakan, pastikan izin kamera
+				untuk Chrome pada perangkat Android telah diaktifkan.
+			}
+			
+			\vspace{0.30cm}
+			
+			\textbf{\Large Cara Mengaktifkan Izin Kamera}
+			
+			\vspace{0.15cm}
+			
+			\begin{enumerate}
+				\item Buka \textbf{Pengaturan Android}
+				$\rightarrow$ \textbf{Aplikasi}
+				$\rightarrow$ \textbf{Chrome}
+				$\rightarrow$ \textbf{Izin}.
+				
+				\vspace{0.18cm}
+				
+				\item Pilih \textbf{Kamera}, kemudian ubah izin menjadi
+				\textbf{Izinkan} atau \textbf{Izinkan hanya saat aplikasi digunakan}.
+			\end{enumerate}
+			
+			\vspace{0.15cm}
+			
+			\successbox{Setelah Diaktifkan}{
+				Kembali ke Chrome dan buka kembali halaman aplikasi
+				TJI Inventory Non-Dagang untuk mencoba mengambil foto.
+			}
+			
+		\end{minipage}
+		
+	\end{center}
+	
+	\vfill
+	
+\end{frame}
+
+
+
+
+% =========================================================
+% APPROVAL
+% =========================================================
+
+
+% =========================================================
+
 % =========================================================
 % APPROVAL
 % =========================================================
 
 \begin{frame}{03.2 --- Approval}
-
-\vspace{-0.25cm}
-
-\begin{columns}[T,totalwidth=\textwidth]
-
-\column{0.65\textwidth}
-
-\begin{center}
-
-\begin{tikzpicture}
-
-\node[
-    inner sep=0,
-    outer sep=0
-] (screen)
-{
-    \includegraphics[
-        width=\linewidth,
-        keepaspectratio
-    ]{images/approval.png}
-};
-
-\highlight{1}{0.3cm}{2.4cm}{5.5cm}{0.7cm}
-\highlight{2}{0.3cm}{1.75cm}{5.5cm}{0.55cm}
-\highlight{3}{0.3cm}{1.15cm}{5.5cm}{0.55cm}
-\successhighlight{4}{3.8cm}{0.25cm}{1.4cm}{0.6cm}
-\highlight{5}{5.2cm}{0.25cm}{1.2cm}{0.6cm}
-
-\end{tikzpicture}
-
-\end{center}
-
-\column{0.025\textwidth}
-
-\column{0.325\textwidth}
-
-\stepcounterdisplay{1}{5}
-\stepcounterdisplay{2}{5}
-\stepcounterdisplay{3}{5}
-\stepcounterdisplay{4}{5}
-\stepcounterdisplay{5}{5}
-
-\sectionlabel{Approver}
-
-\vspace{0.08cm}
-
-\stepitem{1}{1}{Buka detail request.}
-
-\vspace{\TutorialGap}
-
-\stepitem{2}{2}{Periksa item yang diminta.}
-
-\vspace{\TutorialGap}
-
-\stepitem{3}{3}{Periksa quantity.}
-
-\vspace{\TutorialGap}
-
-\stepitem{4}{4}{Klik \textbf{Approve}.}
-
-\vspace{\TutorialGap}
-
-\stepitem{5}{5}{Klik \textbf{Reject} jika request tidak sesuai.}
-
-\vspace{0.12cm}
-
-\only<4>{
-\successbox{Approved}{
-Request telah disetujui dan dapat diproses oleh warehouse.
-}
-}
-
-\end{columns}
-
+	
+	\vspace{-0.25cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		% =========================================================
+		% SCREENSHOT
+		% =========================================================
+		
+		\column{0.65\textwidth}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				inner sep=0,
+				outer sep=0
+				] (screen)
+				{
+					\only<1>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/Approval/Approval1.png}
+					}
+					
+					\only<2>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/Approval/Approval2.png}
+					}
+					
+					\only<3>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/Approval/Approval3.png}
+					}
+					
+					\only<4>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/Approval/Approval4.png}
+					}
+					
+					\only<5>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/Approval/Approval5.png}
+					}
+					
+					\only<6>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Approval/Approval6.png}
+					}
+					
+					\only<7>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Approval/Approval7.png}
+					}
+					
+					\only<8>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Approval/Approval8.png}
+					}
+				};
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		
+		% =========================================================
+		% GAP
+		% =========================================================
+		
+		\column{0.025\textwidth}
+		
+		
+		% =========================================================
+		% LANGKAH
+		% =========================================================
+		
+		\column{0.325\textwidth}
+		
+		\vspace{0.02cm}
+		
+		\sectionlabel{Langkah}
+		
+		\vspace{0.10cm}
+		
+		
+		% =========================================================
+		% STEP 1
+		% =========================================================
+		
+		\stepcounterdisplay{1}{8}
+		
+		\stepitem{1}{1}{
+			Pilih \textbf{Approval Request}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		
+		% =========================================================
+		% STEP 2
+		% =========================================================
+		
+		\stepcounterdisplay{2}{8}
+		
+		\stepitem{2}{2}{
+			Pilih data request yang akan dilakukan persetujuan.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		
+		% =========================================================
+		% STEP 3
+		% =========================================================
+		
+		\stepcounterdisplay{3}{8}
+		
+		\stepitem{3}{3}{
+			Periksa quantity yang diminta dan pastikan stok mencukupi.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		
+		% =========================================================
+		% STEP 4
+		% =========================================================
+		
+		\stepcounterdisplay{4}{8}
+		
+		\stepitem{4}{4}{
+			Jika quantity request melebihi ketersediaan stok,
+			akan muncul notifikasi seperti berikut.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		
+		% =========================================================
+		% STEP 5
+		% =========================================================
+		
+		\stepcounterdisplay{5}{8}
+		
+		\stepitem{5}{5}{
+			Jika request sesuai, Pilih \textbf{Approve}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		
+		% =========================================================
+		% STEP 6
+		% =========================================================
+		
+		\stepcounterdisplay{6}{8}
+		
+		\stepitem{6}{6}{
+			Jika request tidak sesuai, Pilih Tolak
+		}
+		
+		\vspace{\TutorialGap}
+		
+		
+		% =========================================================
+		% STEP 7
+		% =========================================================
+		
+		\stepcounterdisplay{7}{8}
+		
+		\stepitem{7}{7}{
+			\textcolor{red}{*} Isi Alasan Penolakan (apabila Pilih Tolak)
+		}
+		
+		\vspace{\TutorialGap}
+		
+		
+		% =========================================================
+		% STEP 8
+		% =========================================================
+		
+		\stepcounterdisplay{8}{8}
+		
+		\stepitem{8}{8}{
+			Request dapat diproses oleh warehouse.
+		}
+		
+		
+		% =========================================================
+		% APPROVED BOX
+		% =========================================================
+		
+		\vspace{0.12cm}
+		
+		\only<5>{
+			\successbox{Approved}{
+				Request telah disetujui dan dapat diproses
+				oleh Transaksi.
+			}
+		}
+		
+	\end{columns}
+	
 \end{frame}
 
-% =========================================================
-% GOODS RECEIPT
-% =========================================================
 
-\begin{frame}{04 --- Goods Receipt (GR)}
-
-\vspace{-0.25cm}
-
-\begin{columns}[T,totalwidth=\textwidth]
-
-\column{0.65\textwidth}
-
-\begin{center}
-
-\begin{tikzpicture}
-
-\node[
-    inner sep=0,
-    outer sep=0
-] (screen)
-{
-    \includegraphics[
-        width=\linewidth,
-        keepaspectratio
-    ]{images/goods-receipt.png}
-};
-
-\highlight{1}{0.3cm}{2.5cm}{6.5cm}{0.55cm}
-\highlight{2}{0.3cm}{1.85cm}{6.5cm}{0.55cm}
-\highlight{3}{0.3cm}{1.2cm}{6.5cm}{0.55cm}
-\highlight{4}{0.3cm}{0.55cm}{6.5cm}{0.55cm}
-\successhighlight{5}{5.0cm}{0.15cm}{1.6cm}{0.55cm}
-
-\end{tikzpicture}
-
-\end{center}
-
-\column{0.025\textwidth}
-
-\column{0.325\textwidth}
-
-\stepcounterdisplay{1}{5}
-\stepcounterdisplay{2}{5}
-\stepcounterdisplay{3}{5}
-\stepcounterdisplay{4}{5}
-\stepcounterdisplay{5}{5}
-
-\sectionlabel{Langkah}
-
-\vspace{0.08cm}
-
-\stepitem{1}{1}{Pilih Request $>$ \textbf{Permintaan Saya}.}
-
-\vspace{\TutorialGap}
-
-\stepitem{2}{2}{Pilih supplier.}
-
-\vspace{\TutorialGap}
-
-\stepitem{3}{3}{Tentukan warehouse tujuan.}
-
-\vspace{\TutorialGap}
-
-\stepitem{4}{4}{Masukkan quantity barang masuk.}
-
-\vspace{\TutorialGap}
-
-\stepitem{5}{5}{Simpan transaksi.}
-
-\end{columns}
-
+\begin{frame}{Alur Transaksi}
+	
+	\vspace{-0.05cm}
+	
+	\sectionlabel{Alur Proses Transaksi}
+	
+	\vspace{0.40cm}
+	
+	\begin{center}
+		
+		\begin{tikzpicture}[node distance=0.75cm]
+			
+			% ---------------------------------------------------------
+			% STEP 6
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large
+			]
+			(transaction)
+			{\textbf{Pilih Request}};
+			
+			% ---------------------------------------------------------
+			% STEP 7
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large,
+			right=of transaction
+			]
+			(request)
+			{\textbf{Buat Goods Issue}};
+			
+			% ---------------------------------------------------------
+			% STEP 8
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Warning,
+			fill=WarningLight,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large,
+			right=of request
+			]
+			(gi)
+			{\textbf{Posting Goods Issue}};
+			
+			% ---------------------------------------------------------
+			% STEP 9
+			% ---------------------------------------------------------
+			
+			\node[
+			draw=Success,
+			fill=SuccessLight,
+			rounded corners=7pt,
+			minimum width=2.8cm,
+			minimum height=1.25cm,
+			align=center,
+			font=\large,
+			right=of gi
+			]
+			(confirm)
+			{\textbf{Selesai}};
+			
+			% ---------------------------------------------------------
+			% STEP 10
+			% ---------------------------------------------------------
+			
+			
+			% ---------------------------------------------------------
+			% ARROWS
+			% ---------------------------------------------------------
+			
+			\draw[->,thick]
+			(transaction) -- (request);
+			
+			\draw[->,thick]
+			(request) -- (gi);
+			
+			\draw[->,thick]
+			(gi) -- (confirm);
+			
+			
+		\end{tikzpicture}
+		
+	\end{center}
+	
+	\vspace{0.50cm}
+	
+	% =========================================================
+	% STEP 6
+	% =========================================================
+	
+	\only<1>{
+		\infobox{STEP 6 --- Pilih Request}{
+			Petugas memilih request yang telah berstatus \textbf{APPROVED}
+			untuk diproses pada transaksi pengeluaran barang (Buat Goods Issue).
+		}
+	}
+	
+	% =========================================================
+	% STEP 7
+	% =========================================================
+	
+	\only<2>{
+		\infobox{STEP 7 --- Buat Goods Issue}{
+		Petugas membuat Goods Issue (Pengeluaran Barang) berdasarkan
+		request yang telah dipilih, dan harus melengkapi
+		data pengeluaran barang sebelum diproses.
+		}
+	}
+	
+	% =========================================================
+	% STEP 8
+	% =========================================================
+	
+	\only<3>{
+		\infobox{STEP 8 --- Posting Goods Issue}{
+			Petugas melakukan posting Goods Issue
+			untuk mencatat pengeluaran barang.
+		}
+	}
+	
+	% =========================================================
+	% STEP 9
+	% =========================================================
+	
+	\only<4>{
+		\infobox{STEP 9 --- Selesai}{
+			Proses Goods Issue berhasil dilakukan dan transaksi tercatat di sistem, sehingga stok dalam sistem berkurang sesuai dengan barang yang dikeluarkan.
+		}
+	}
+	
+	% =========================================================
+	% STEP 10
+	% =========================================================
+	
+	\only<5>{
+		\infobox{STEP 10 --- Selesai}{
+			Stok inventory diperbarui sesuai dengan
+			barang dan quantity yang telah dikeluarkan.
+		}
+	}
+	
 \end{frame}
+
+
+
+
+
 
 % =========================================================
 % GOODS ISSUE
 % =========================================================
 
-\begin{frame}{05 --- Goods Issue (GI)}
+% =========================================================
+% GOODS ISSUE
+% =========================================================
+
+\begin{frame}{04 --- Goods Issue (Pengeluaran Barang)}
+	
+	\vspace{-0.25cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		\column{0.65\textwidth}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				inner sep=0,
+				outer sep=0
+				] (screen)
+				{
+					\only<1>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/GI/GI1.png}
+					}
+					
+					\only<2>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/GI/GI2.png}
+					}
+					
+					\only<3>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/GI/GI3.png}
+					}
+					
+					\only<4>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/GI/GI4.png}
+					}
+					
+					\only<5>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/GI/GI5.png}
+					}
+					
+					\only<6>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/GI/GI6.png}
+					}
+					
+					\only<7>{
+						\includegraphics[
+						width=\linewidth,
+						keepaspectratio
+						]{images/GI/GI7.png}
+					}
+				};
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		\column{0.025\textwidth}
+		
+		\column{0.325\textwidth}
+		
+		\stepcounterdisplay{1}{7}
+		\stepcounterdisplay{2}{7}
+		\stepcounterdisplay{3}{7}
+		\stepcounterdisplay{4}{7}
+		\stepcounterdisplay{5}{7}
+		\stepcounterdisplay{6}{7}
+		\stepcounterdisplay{7}{7}
+		
+		\sectionlabel{Langkah}
+		
+		\vspace{0.08cm}
+		
+		\stepitem{1}{1}{
+			Pilih \textbf{Transaction} $>$ \textbf{Goods Issue}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{2}{2}{
+			Pilih request yang akan diproses.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{3}{3}{
+			Periksa data request dan barang yang akan dikeluarkan, pastikan jumlah QTY GI dan Request/Oustanding sama.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{4}{4}{
+			Pilih \textbf{Review} (periksa kembali), kemudian pilih \textbf{Lanjut Konfirmasi}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{5}{5}{
+			Isi Kolom Received By dengan Nama Penerima Barang.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{6}{6}{
+			Periksa kembali detail transaksi.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{7}{7}{
+			Simpan transaksi.
+		}
+		
+	\end{columns}
+	
+\end{frame}
+	
+
+
+% =========================================================
+% GOODS ISSUE
+% =========================================================
+
+\begin{frame}{04 --- Goods Issue (GI) Pengeluaran Barang}
 
 \vspace{-0.25cm}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.11)  11 SEP 2026 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.11)  12 SEP 2026 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2488,33 +2488,31 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [33
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1845--1845
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1792--1792
 [][][][]  
  []
 
 
-LaTeX Warning: File `images/approval.png' not found on input line 1845.
+! LaTeX Error: There's no line here to end.
 
-
-! Package pdftex.def Error: File `images/approval.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1845 \end{frame}
+l.1792 \end{frame}
                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1845--1845
-[][]  
+Overfull \hbox (1.0pt too wide) in paragraph at lines 1792--1792
+[][]
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 1845
+Underfull \hbox (badness 10000) in paragraph at lines 1792--1792
+
  []
 
 
@@ -2525,29 +2523,54 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [34
 
 ]
-
-LaTeX Warning: File `images/approval.png' not found on input line 1845.
-
-
-! Package pdftex.def Error: File `images/approval.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1845 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1845--1845
-[][]  
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1849--1849
+[][][][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 1845
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1849 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (1.0pt too wide) in paragraph at lines 1849--1849
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1849--1849
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1849 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (1.0pt too wide) in paragraph at lines 1849--1849
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1849--1849
+
  []
 
 
@@ -2558,29 +2581,24 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [35
 
 ]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2086--2086
+[][][][]  
+ []
 
-LaTeX Warning: File `images/approval.png' not found on input line 1845.
+<images/Approval/Approval1.png, id=248, 1027.58907pt x 519.44063pt>
+File: images/Approval/Approval1.png Graphic file (type png)
+<use images/Approval/Approval1.png>
+Package pdftex.def Info: images/Approval/Approval1.png  used on input line 2086
+.
+(pdftex.def)             Requested size: 714.61272pt x 361.23608pt.
 
-
-! Package pdftex.def Error: File `images/approval.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1845 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1845--1845
-[][]  
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 1845
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+[][]  
  []
 
 
@@ -2590,48 +2608,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [36
 
-]
+ <./images/Approval/Approval1.png>]
+<images/Approval/Approval2.png, id=255, 1027.58907pt x 511.9125pt>
+File: images/Approval/Approval2.png Graphic file (type png)
+<use images/Approval/Approval2.png>
+Package pdftex.def Info: images/Approval/Approval2.png  used on input line 2086
+.
+(pdftex.def)             Requested size: 714.61272pt x 356.00078pt.
 
-LaTeX Warning: File `images/approval.png' not found on input line 1845.
-
-
-! Package pdftex.def Error: File `images/approval.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1845 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+ [] 
+ []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1845--1845
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
 [][]  
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1845 \end{frame}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1845--1845
-[][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1845
  []
 
 
@@ -2641,30 +2632,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [37
 
-]
+ <./images/Approval/Approval2.png>]
+<images/Approval/Approval3.png, id=263, 1027.58907pt x 502.12593pt>
+File: images/Approval/Approval3.png Graphic file (type png)
+<use images/Approval/Approval3.png>
+Package pdftex.def Info: images/Approval/Approval3.png  used on input line 2086
+.
+(pdftex.def)             Requested size: 714.61272pt x 349.19487pt.
 
-LaTeX Warning: File `images/approval.png' not found on input line 1845.
-
-
-! Package pdftex.def Error: File `images/approval.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1845 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1845--1845
-[][]  
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 1845
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+[][]  
  []
 
 
@@ -2674,34 +2656,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [38
 
-]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1918--1918
-[][][][]  
+ <./images/Approval/Approval3.png>]
+<images/Approval/Approval4.png, id=270, 1026.83624pt x 521.69907pt>
+File: images/Approval/Approval4.png Graphic file (type png)
+<use images/Approval/Approval4.png>
+Package pdftex.def Info: images/Approval/Approval4.png  used on input line 2086
+.
+(pdftex.def)             Requested size: 714.61272pt x 363.06937pt.
+
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+ [] 
  []
 
 
-LaTeX Warning: File `images/goods-receipt.png' not found on input line 1918.
-
-
-! Package pdftex.def Error: File `images/goods-receipt.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1918 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1918--1918
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
 [][]  
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1918
  []
 
 
@@ -2711,161 +2680,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [39
 
-]
+ <./images/Approval/Approval4.png>]
+<images/Approval/Approval5.png, id=277, 1019.30812pt x 519.44063pt>
+File: images/Approval/Approval5.png Graphic file (type png)
+<use images/Approval/Approval5.png>
+Package pdftex.def Info: images/Approval/Approval5.png  used on input line 2086
+.
+(pdftex.def)             Requested size: 714.61272pt x 364.18456pt.
 
-LaTeX Warning: File `images/goods-receipt.png' not found on input line 1918.
-
-
-! Package pdftex.def Error: File `images/goods-receipt.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1918 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1918--1918
-[][]  
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 1918
- []
-
-
-Overfull \hbox (6.37508pt too wide) has occurred while \output is active
-[][][][] 
- []
-
-[40
-
-]
-
-LaTeX Warning: File `images/goods-receipt.png' not found on input line 1918.
-
-
-! Package pdftex.def Error: File `images/goods-receipt.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1918 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1918--1918
-[][]  
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1918
- []
-
-
-Overfull \hbox (6.37508pt too wide) has occurred while \output is active
-[][][][] 
- []
-
-[41
-
-]
-
-LaTeX Warning: File `images/goods-receipt.png' not found on input line 1918.
-
-
-! Package pdftex.def Error: File `images/goods-receipt.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1918 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1918--1918
-[][]  
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1918
- []
-
-
-Overfull \hbox (6.37508pt too wide) has occurred while \output is active
-[][][][] 
- []
-
-[42
-
-]
-
-LaTeX Warning: File `images/goods-receipt.png' not found on input line 1918.
-
-
-! Package pdftex.def Error: File `images/goods-receipt.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1918 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1918--1918
-[][]  
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1918
- []
-
-
-Overfull \hbox (6.37508pt too wide) has occurred while \output is active
-[][][][] 
- []
-
-[43
-
-]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1997--1997
-[][][][]  
- []
-
-
-LaTeX Warning: File `images/goods-issue.png' not found on input line 1997.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1997 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
 [][]  
  []
 
@@ -2876,19 +2704,121 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1997 \end{frame}
+l.2086 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
 [][] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 1997
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[40
+
+ <./images/Approval/Approval5.png>]
+<images/Approval/Approval6.png, id=284, 1025.33063pt x 514.92375pt>
+File: images/Approval/Approval6.png Graphic file (type png)
+<use images/Approval/Approval6.png>
+Package pdftex.def Info: images/Approval/Approval6.png  used on input line 2086
+.
+(pdftex.def)             Requested size: 678.8799pt x 340.935pt.
+
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2086--2086
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[41
+
+ <./images/Approval/Approval6.png>]
+<images/Approval/Approval7.png, id=291, 1027.58907pt x 514.17094pt>
+File: images/Approval/Approval7.png Graphic file (type png)
+<use images/Approval/Approval7.png>
+Package pdftex.def Info: images/Approval/Approval7.png  used on input line 2086
+.
+(pdftex.def)             Requested size: 678.8799pt x 339.69124pt.
+
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2086--2086
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[42
+
+ <./images/Approval/Approval7.png>]
+<images/Approval/Approval8.png, id=298, 1027.58907pt x 516.42938pt>
+File: images/Approval/Approval8.png Graphic file (type png)
+<use images/Approval/Approval8.png>
+Package pdftex.def Info: images/Approval/Approval8.png  used on input line 2086
+.
+(pdftex.def)             Requested size: 678.8799pt x 341.18329pt.
+
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2086--2086
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[43
+
+ <./images/Approval/Approval8.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2248--2248
+[][][][]  
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2248 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <15.5> not available
+(Font)              size <14.4> substituted on input line 2248.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
+[][] 
  []
 
 
@@ -2900,46 +2830,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 1997.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1997 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
-[][]  
- []
-
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1997 \end{frame}
+l.2248 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
 [][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1997
  []
 
 
@@ -2951,46 +2856,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 1997.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1997 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
-[][]  
- []
-
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1997 \end{frame}
+l.2248 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
 [][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1997
  []
 
 
@@ -3002,46 +2882,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 1997.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1997 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
-[][]  
- []
-
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1997 \end{frame}
+l.2248 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
 [][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1997
  []
 
 
@@ -3053,46 +2908,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 1997.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1997 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
-[][]  
- []
-
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1997 \end{frame}
+l.2248 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1997--1997
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
 [][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 1997
  []
 
 
@@ -3103,45 +2933,23 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [48
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2080--2080
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2392--2392
 [][][][]  
  []
 
+<images/GI/GI1.png, id=331, 1016.29688pt x 517.935pt>
+File: images/GI/GI1.png Graphic file (type png)
+<use images/GI/GI1.png>
+Package pdftex.def Info: images/GI/GI1.png  used on input line 2392.
+(pdftex.def)             Requested size: 714.61272pt x 364.19585pt.
 
-LaTeX Warning: File `images/current-stock.png' not found on input line 2080.
-
-
-! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2080 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2080--2080
-[][]  
+Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+ [] 
  []
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 2080.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 2080.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <15.5> not available
-(Font)              size <14.4> substituted on input line 2080.
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2080
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+[][]  
  []
 
 
@@ -3151,30 +2959,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [49
 
-]
+ <./images/GI/GI1.png>]
+<images/GI/GI2.png, id=339, 1026.83624pt x 520.94624pt>
+File: images/GI/GI2.png Graphic file (type png)
+<use images/GI/GI2.png>
+Package pdftex.def Info: images/GI/GI2.png  used on input line 2392.
+(pdftex.def)             Requested size: 714.61272pt x 362.54546pt.
 
-LaTeX Warning: File `images/current-stock.png' not found on input line 2080.
-
-
-! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2080 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2080--2080
-[][]  
+Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2080
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+[][]  
  []
 
 
@@ -3184,30 +2982,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [50
 
-]
+ <./images/GI/GI2.png>]
+<images/GI/GI3.png, id=346, 1020.81375pt x 518.6878pt>
+File: images/GI/GI3.png Graphic file (type png)
+<use images/GI/GI3.png>
+Package pdftex.def Info: images/GI/GI3.png  used on input line 2392.
+(pdftex.def)             Requested size: 714.61272pt x 363.11856pt.
 
-LaTeX Warning: File `images/current-stock.png' not found on input line 2080.
-
-
-! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2080 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2080--2080
-[][]  
+Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2080
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+[][]  
  []
 
 
@@ -3217,34 +3005,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [51
 
-]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2153--2153
-[][][][]  
+ <./images/GI/GI3.png>]
+<images/GI/GI4.png, id=353, 1027.58907pt x 514.92375pt>
+File: images/GI/GI4.png Graphic file (type png)
+<use images/GI/GI4.png>
+Package pdftex.def Info: images/GI/GI4.png  used on input line 2392.
+(pdftex.def)             Requested size: 714.61272pt x 358.0949pt.
+
+Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+ [] 
  []
 
 
-LaTeX Warning: File `images/report.png' not found on input line 2153.
-
-
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2153 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2153--2153
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
 [][]  
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2153
  []
 
 
@@ -3254,30 +3028,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [52
 
-]
+ <./images/GI/GI4.png>]
+<images/GI/GI5.png, id=360, 1026.08344pt x 519.44063pt>
+File: images/GI/GI5.png Graphic file (type png)
+<use images/GI/GI5.png>
+Package pdftex.def Info: images/GI/GI5.png  used on input line 2392.
+(pdftex.def)             Requested size: 714.61272pt x 361.76712pt.
 
-LaTeX Warning: File `images/report.png' not found on input line 2153.
-
-
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2153 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2153--2153
-[][]  
+Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2153
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+[][]  
  []
 
 
@@ -3287,30 +3051,35 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [53
 
-]
+ <./images/GI/GI5.png>]
 
-LaTeX Warning: File `images/report.png' not found on input line 2153.
+LaTeX Warning: File `images/GI/GI6.png' not found on input line 2392.
 
 
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
+! Package pdftex.def Error: File `images/GI/GI6.png' not found: using draft set
 ting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2153 \end{frame}
+l.2392 \end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2153--2153
+Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
 [][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2153
+Overfull \vbox (283.0719pt too high) detected at line 2392
  []
 
 
@@ -3322,28 +3091,33 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: File `images/report.png' not found on input line 2153.
+LaTeX Warning: File `images/GI/GI7.png' not found on input line 2392.
 
 
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
+! Package pdftex.def Error: File `images/GI/GI7.png' not found: using draft set
 ting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2153 \end{frame}
+l.2392 \end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2153--2153
+Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
 [][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2153
+Overfull \vbox (283.0719pt too high) detected at line 2392
  []
 
 
@@ -3354,29 +3128,51 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [55
 
 ]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2473--2473
+[][][][]  
+ []
 
-LaTeX Warning: File `images/report.png' not found on input line 2153.
+
+LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
 
 
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
-ting.
+! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
+t setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2153 \end{frame}
+l.2473 \end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2153--2153
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
 [][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2153
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2473 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+[][] 
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3387,33 +3183,47 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [56
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2220--2220
-[][][][]  
- []
+
+LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
 
 
-LaTeX Warning: File `images/discussion.png' not found on input line 2220.
-
-
-! Package pdftex.def Error: File `images/discussion.png' not found: using draft
- setting.
+! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
+t setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2220 \end{frame}
+l.2473 \end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2220--2220
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
 [][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2220
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2473 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+[][] 
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3425,28 +3235,46 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: File `images/discussion.png' not found on input line 2220.
+LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
 
 
-! Package pdftex.def Error: File `images/discussion.png' not found: using draft
- setting.
+! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
+t setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2220 \end{frame}
+l.2473 \end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2220--2220
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
 [][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2220
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2473 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+[][] 
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3458,28 +3286,46 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: File `images/discussion.png' not found on input line 2220.
+LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
 
 
-! Package pdftex.def Error: File `images/discussion.png' not found: using draft
- setting.
+! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
+t setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2220 \end{frame}
+l.2473 \end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2220--2220
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
 [][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2220
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2473 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+[][] 
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3491,28 +3337,46 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: File `images/discussion.png' not found on input line 2220.
+LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
 
 
-! Package pdftex.def Error: File `images/discussion.png' not found: using draft
- setting.
+! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
+t setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2220 \end{frame}
+l.2473 \end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2220--2220
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
 [][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2220
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2473 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+[][] 
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3523,18 +3387,42 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [60
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2276--2276
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2556--2556
 [][][][]  
  []
 
-LaTeX Font Info:    Calculating math sizes for size <15.5> on input line 2276.
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15.5> not available
-(Font)              size <14.4> substituted on input line 2276.
+LaTeX Warning: File `images/current-stock.png' not found on input line 2556.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15.5> not available
-(Font)              size <14.4> substituted on input line 2276.
+! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2556 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2556--2556
+[][]  
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 2556.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 2556.
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2556
+ []
 
 
 Overfull \hbox (6.37508pt too wide) has occurred while \output is active
@@ -3544,13 +3432,30 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [61
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2326--2326
-[][][][]  
+
+LaTeX Warning: File `images/current-stock.png' not found on input line 2556.
+
+
+! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2556 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2556--2556
+[][]  
  []
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 2326.
+Overfull \vbox (282.0719pt too high) detected at line 2556
+ []
 
 
 Overfull \hbox (6.37508pt too wide) has occurred while \output is active
@@ -3561,16 +3466,391 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 ]
 
+LaTeX Warning: File `images/current-stock.png' not found on input line 2556.
+
+
+! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2556 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2556--2556
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2556
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[63
+
+]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2629--2629
+[][][][]  
+ []
+
+
+LaTeX Warning: File `images/report.png' not found on input line 2629.
+
+
+! Package pdftex.def Error: File `images/report.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2629 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2629
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[64
+
+]
+
+LaTeX Warning: File `images/report.png' not found on input line 2629.
+
+
+! Package pdftex.def Error: File `images/report.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2629 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2629
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[65
+
+]
+
+LaTeX Warning: File `images/report.png' not found on input line 2629.
+
+
+! Package pdftex.def Error: File `images/report.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2629 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2629
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[66
+
+]
+
+LaTeX Warning: File `images/report.png' not found on input line 2629.
+
+
+! Package pdftex.def Error: File `images/report.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2629 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2629
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[67
+
+]
+
+LaTeX Warning: File `images/report.png' not found on input line 2629.
+
+
+! Package pdftex.def Error: File `images/report.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2629 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2629
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[68
+
+]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2696--2696
+[][][][]  
+ []
+
+
+LaTeX Warning: File `images/discussion.png' not found on input line 2696.
+
+
+! Package pdftex.def Error: File `images/discussion.png' not found: using draft
+ setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2696 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2696--2696
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2696
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[69
+
+]
+
+LaTeX Warning: File `images/discussion.png' not found on input line 2696.
+
+
+! Package pdftex.def Error: File `images/discussion.png' not found: using draft
+ setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2696 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2696--2696
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2696
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[70
+
+]
+
+LaTeX Warning: File `images/discussion.png' not found on input line 2696.
+
+
+! Package pdftex.def Error: File `images/discussion.png' not found: using draft
+ setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2696 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2696--2696
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2696
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[71
+
+]
+
+LaTeX Warning: File `images/discussion.png' not found on input line 2696.
+
+
+! Package pdftex.def Error: File `images/discussion.png' not found: using draft
+ setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2696 \end{frame}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2696--2696
+[][]  
+ []
+
+
+Overfull \vbox (282.0719pt too high) detected at line 2696
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[72
+
+]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2752--2752
+[][][][]  
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <15.5> on input line 2752.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15.5> not available
+(Font)              size <14.4> substituted on input line 2752.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15.5> not available
+(Font)              size <14.4> substituted on input line 2752.
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[73
+
+]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2802--2802
+[][][][]  
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 2802.
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[74
+
+]
+
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 2392.
+(Font)              size <35.83> substituted on input line 2868.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 2392.
+(Font)              size <35.83> substituted on input line 2868.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 2392.
+(Font)              size <20.74> substituted on input line 2868.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -3579,13 +3859,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2392 \end{frame}
+l.2868 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[63
+[75
 
 ]
 \tf@nav=\write6
@@ -3614,11 +3894,11 @@ Package rerunfilecheck Info: File `"main_untuk Admin".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25658 strings out of 467870
- 513316 string characters out of 5419323
- 887980 words of memory out of 5000000
- 53905 multiletter control sequences out of 15000+600000
- 654837 words of font info for 139 fonts, out of 8000000 for 9000
+ 25819 strings out of 467870
+ 516983 string characters out of 5419323
+ 888088 words of memory out of 5000000
+ 54042 multiletter control sequences out of 15000+600000
+ 656906 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,395b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/TJI/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
@@ -3633,9 +3913,9 @@ cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TJI/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/
 TJI/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pf
 b>
-Output written on "main_untuk Admin.pdf" (63 pages, 2020311 bytes).
+Output written on "main_untuk Admin.pdf" (75 pages, 3102489 bytes).
 PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
