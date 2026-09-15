@@ -7,7 +7,7 @@
 
 \geometry{
     paperwidth=16in,
-    paperheight=7.5in
+    paperheight=8.5in
 }
 
 % =========================================================
@@ -17,6 +17,7 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{fontawesome5}
 \usepackage[table]{xcolor}
 \usepackage{tikz}
 \usetikzlibrary{positioning,calc}
@@ -2279,51 +2280,1203 @@ akun yang diberikan administrator.
 				{
 					\only<1>{
 						\includegraphics[
-						width=\linewidth,
+						width=0.95\linewidth,
 						keepaspectratio
 						]{images/GI/GI1.png}
 					}
 					
 					\only<2>{
 						\includegraphics[
-						width=\linewidth,
+						width=0.95\linewidth,
 						keepaspectratio
 						]{images/GI/GI2.png}
 					}
 					
 					\only<3>{
 						\includegraphics[
-						width=\linewidth,
+						width=0.95\linewidth,
 						keepaspectratio
 						]{images/GI/GI3.png}
 					}
 					
 					\only<4>{
 						\includegraphics[
-						width=\linewidth,
+						width=0.95\linewidth,
 						keepaspectratio
 						]{images/GI/GI4.png}
 					}
 					
 					\only<5>{
 						\includegraphics[
-						width=\linewidth,
+						width=0.95\linewidth,
 						keepaspectratio
 						]{images/GI/GI5.png}
 					}
 					
 					\only<6>{
 						\includegraphics[
-						width=\linewidth,
+						width=0.95\linewidth,
 						keepaspectratio
 						]{images/GI/GI6.png}
 					}
 					
 					\only<7>{
 						\includegraphics[
-						width=\linewidth,
+						width=0.95\linewidth,
 						keepaspectratio
 						]{images/GI/GI7.png}
+					}
+					
+					\only<8>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GI/GI8.png}
+					}
+				};
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		\column{0.025\textwidth}
+		
+		\column{0.325\textwidth}
+		
+		\stepcounterdisplay{1}{8}
+		\stepcounterdisplay{2}{8}
+		\stepcounterdisplay{3}{8}
+		\stepcounterdisplay{4}{8}
+		\stepcounterdisplay{5}{8}
+		\stepcounterdisplay{6}{8}
+		\stepcounterdisplay{7}{8}
+		\stepcounterdisplay{8}{8}
+		
+		\sectionlabel{Langkah}
+		
+		\vspace{0.08cm}
+		
+		\stepitem{1}{1}{
+			Pilih \textbf{Transaction} $>$ \textbf{Goods Issue}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{2}{2}{
+			Pilih request yang akan diproses.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{3}{3}{
+			Periksa data request dan barang yang akan dikeluarkan,
+			pastikan jumlah QTY GI dan Request/Outstanding sama.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{4}{4}{
+			Pilih \textbf{Review} (periksa kembali), kemudian pilih
+			\textbf{Lanjut Konfirmasi}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{5}{5}{
+			Isi kolom \textbf{Received By} dengan nama penerima barang.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{6}{6}{
+			Siapkan dokumen Tanda Terima yang telah
+			ditandatangani oleh pemohon sebagai bukti
+			serah terima barang.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{7}{7}{
+			Foto dokumen Tanda Terima (untuk Android) /
+			Upload foto Tanda Terima (untuk Desktop).
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{8}{8}{
+			Pilih \textbf{Posting Goods Issue} untuk menyelesaikan
+			proses pengeluaran barang.
+		}
+		
+	\end{columns}
+	
+\end{frame}
+	
+
+
+
+\begin{frame}{05 --- Goods Receipt (Penerimaan Barang)}
+	
+	\vspace{-0.25cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		\column{0.65\textwidth}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				inner sep=0,
+				outer sep=0
+				] (screen)
+				{
+					\only<1>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR1.png}
+					}
+					
+					\only<2>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR2.png}
+					}
+					
+					\only<3>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR3.png}
+					}
+					
+					\only<4>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR4.png}
+					}
+					
+					\only<5>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR5.png}
+					}
+					
+					\only<6>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR6.png}
+					}
+					
+					\only<7>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR7.png}
+					}
+					
+					\only<8>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR8.png}
+					}
+					
+					\only<9>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR9.png}
+					}
+					
+					\only<10>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR10.png}
+					}
+					
+					\only<11>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/GR/GR11.png}
+					}
+				};
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		\column{0.025\textwidth}
+		
+		\column{0.325\textwidth}
+		
+		\stepcounterdisplay{1}{11}
+		\stepcounterdisplay{2}{11}
+		\stepcounterdisplay{3}{11}
+		\stepcounterdisplay{4}{11}
+		\stepcounterdisplay{5}{11}
+		\stepcounterdisplay{6}{11}
+		\stepcounterdisplay{7}{11}
+		\stepcounterdisplay{8}{11}
+		\stepcounterdisplay{9}{11}
+		\stepcounterdisplay{10}{11}
+		\stepcounterdisplay{11}{11}
+		
+		\sectionlabel{Langkah}
+		
+		\vspace{0.08cm}
+		
+		\stepitem{1}{1}{
+			Pilih \textbf{Transaction} $>$ \textbf{Goods Receipt}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{2}{2}{
+			Pilih \textbf{Destination Warehouse} sebagai
+			lokasi tujuan penerimaan barang, sesuai kategori barang.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{3}{3}{
+			Isi nama penerima barang
+			pada kolom \textbf{Received By}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{4}{4}{
+			Isi kolom \textbf{Purpose}
+			untuk mempermudah pengecekan.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{5}{5}{
+			Masuk ke \textbf{Pilih Item}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{6}{6}{
+			Pilih \textbf{+ Tambah} sesuai dengan barang
+			yang diterima. Dapat memilih lebih dari 1 item,
+			namun harus dalam satu warehouse.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{7}{7}{
+			Isi jumlah barang yang diterima serta
+			isi \textbf{Remark} jika diperlukan.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{8}{8}{
+			Periksa kembali detail data penerimaan barang,
+			kemudian pilih \textbf{Lanjut Konfirmasi}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{9}{9}{
+			Siapkan dokumen Surat Jalan yang dari Supplier.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{10}{10}{
+			Foto dokumen Surat Jalan (untuk Android) /
+			Upload foto Surat Jalan (untuk Desktop).
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{11}{11}{
+			Periksa kembali seluruh data Goods Receipt,
+			kemudian \textbf{Pilih Buat Goods Receipt}.
+		}
+		
+	\end{columns}
+	
+\end{frame}
+
+\begin{frame}{Attention}
+	
+	\vfill
+	
+	\begin{center}
+		
+		\begin{minipage}{0.90\textwidth}
+			
+			\warningbox{Perlu Diperhatikan}{
+				\large
+				\begin{itemize}
+					\item Satu Transaksi Goods Receipt hanya dapat berisi barang dari
+					\textbf{satu kategori}.
+					\vspace{0.15cm}
+					 Contoh penerimaan BAYGON 750ML (Cleaning) tidak bisa dijadikan satu transaksi dengan AMPLOP PAPERLINE 110 (ATK).
+					\item Semua barang yang dapat dilakukan permintaan, pengeluaran dan penerimaan hanya barang yang teregistrasi di \textbf{Master Item}.
+					
+					\vspace{0.30cm}
+					
+					\item Pada perangkat \textbf{Android, iOS, dan Tablet},
+					bukti foto dapat diunggah langsung menggunakan kamera
+					perangkat.
+					
+					\vspace{0.15cm}
+					
+					Pada versi \textbf{Desktop}, bukti foto dapat diunggah
+					dalam format \textbf{JPG, PNG, atau WEBP}.
+				\end{itemize}
+			}
+			
+		\end{minipage}
+		
+	\end{center}
+	
+	\vfill
+	
+\end{frame}
+
+
+\begin{frame}{05 --- Master Item}
+	
+	\vspace{-0.25cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		\column{0.65\textwidth}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				inner sep=0,
+				outer sep=0
+				] (screen)
+				{
+					\only<1>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Master Item/CreateItem1.png}
+					}
+					
+					\only<2>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Master Item/CreateItem2.png}
+					}
+					
+					\only<3>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Master Item/CreateItem3.png}
+					}
+					
+					\only<4>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Master Item/CreateItem4.png}
+					}
+					
+					\only<5>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Master Item/CreateItem5.png}
+					}
+					
+					\only<6>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Master Item/CreateItem6.png}
+					}
+					
+					\only<7>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Master Item/CreateItem7.png}
+					}
+					
+					\only<8>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Master Item/CreateItem8.png}
+					}
+				};
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		\column{0.025\textwidth}
+		
+		\column{0.325\textwidth}
+		
+		\stepcounterdisplay{1}{8}
+		\stepcounterdisplay{2}{8}
+		\stepcounterdisplay{3}{8}
+		\stepcounterdisplay{4}{8}
+		\stepcounterdisplay{5}{8}
+		\stepcounterdisplay{6}{8}
+		\stepcounterdisplay{7}{8}
+		\stepcounterdisplay{8}{8}
+		
+		\sectionlabel{Langkah}
+		
+		\vspace{0.08cm}
+		
+		\stepitem{1}{1}{
+			Pilih menu \textbf{Master Item}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{2}{2}{
+			Pilih \textbf{Tambah Item} untuk membuat
+			item baru.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{3}{3}{
+			Isikan informasi item sesuai dengan
+			data barang yang akan dibuat.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{4}{4}{
+			Apabila data item sudah lengkap dan benar \textbf{Pilih Tambah Item}
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{5}{5}{
+			Periksa kembali seluruh informasi item
+			didalam list berikut sudah benar.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{6}{6}{
+			Jika ada perbaikan ikon Pensil.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{7}{7}{
+			Perbaiki informasi item yang belum tepat $>$ Pilih \textbf{Simpan Perubahan}
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{8}{8}{
+			Jika ingin menghapus item pilih ikon Tong Sampah.
+		}
+
+		
+	\end{columns}
+	
+\end{frame}
+
+
+
+
+
+
+
+
+
+%
+
+% =========================================================
+% REPORT
+% =========================================================
+
+\begin{frame}{06 --- Reports}
+	
+	\vfill
+	
+	\begin{center}
+		
+		\sectionlabel{Jenis-Jenis Report}
+		
+		\vspace{0.45cm}
+		
+		\begin{tikzpicture}[
+			node distance=0.55cm and 0.75cm
+			]
+			
+			% Current Stock
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=8pt,
+			minimum width=5.2cm,
+			minimum height=1.45cm,
+			align=center,
+			font=\large
+			]
+			(current)
+			{\textbf{Current Stock}\\
+				\normalsize Menampilkan posisi stok terkini};
+			
+			% Stock Closing
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=8pt,
+			minimum width=5.2cm,
+			minimum height=1.45cm,
+			align=center,
+			font=\large,
+			right=of current
+			]
+			(closing)
+			{\textbf{Stock Closing}\\
+				\normalsize Menampilkan capture stok pada periode tertentu};
+			
+			% Mutation Report
+			\node[
+			draw=Warning,
+			fill=WarningLight,
+			rounded corners=8pt,
+			minimum width=5.2cm,
+			minimum height=1.45cm,
+			align=center,
+			font=\large,
+			below=of current
+			]
+			(mutation)
+			{\textbf{Mutation Report}\\
+				\normalsize Menampilkan mutasi masuk dan keluar};
+			
+			% Request Report
+			\node[
+			draw=Success,
+			fill=SuccessLight,
+			rounded corners=8pt,
+			minimum width=5.2cm,
+			minimum height=1.45cm,
+			align=center,
+			font=\large,
+			right=of mutation
+			]
+			(request)
+			{\textbf{Request Report}\\
+				\normalsize Menampilkan riwayat permintaan barang};
+			
+		\end{tikzpicture}
+		
+		\vspace{0.55cm}
+		
+		\infobox{Tujuan Report}{
+			Report digunakan untuk memantau kondisi stok, pergerakan barang, serta riwayat permintaan secara terstruktur dan terdokumentasi, sehingga mempermudah seluruh pihak dalam melakukan monitoring, analisis, dan audit.
+
+		}
+		
+	\end{center}
+	
+	\vfill
+	
+\end{frame}
+
+
+\begin{frame}{06.1 --- Current Stock}
+	
+	\vspace{-0.15cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		% =========================
+		% GAMBAR
+		% =========================
+		\column{0.62\textwidth}
+		
+		\begin{center}
+			\begin{tikzpicture}
+				\node[
+				draw=LightGray,
+				fill=white,
+				rounded corners=8pt,
+				inner sep=0.12cm
+				] {
+					\includegraphics[
+					width=0.96\linewidth,
+					keepaspectratio
+					]{images/Reports/CurrentStock.png}
+				};
+			\end{tikzpicture}
+		\end{center}
+		
+		
+		% =========================
+		% KETERANGAN
+		% =========================
+		\column{0.04\textwidth}
+		
+		
+		\column{0.34\textwidth}
+		
+		\begin{tikzpicture}
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=10pt,
+			inner sep=0.35cm,
+			text width=0.90\linewidth,
+			align=left
+			] {
+				{\Large\textbf{\textcolor{PrimaryDark}{Current Stock}}}
+				
+				\vspace{0.25cm}
+				
+				\normalsize
+				\textbf{Menampilkan posisi stok terkini
+				berdasarkan warehouse dan item.}
+				
+				\vspace{0.25cm}
+				
+				\textbf{Informasi yang dapat dipantau:}
+				
+				\vspace{0.08cm}
+				
+				\begin{itemize}
+					\item Nama Gudang
+					\item Kode Item
+					\item Nama Barang
+					\item Satuan
+					\item Jumlah
+				\end{itemize}
+			};
+		\end{tikzpicture}
+		
+	\end{columns}
+	
+\end{frame}
+
+
+\begin{frame}{06.2 --- Stock Closing}
+	
+	\vspace{-0.15cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		% =========================
+		% GAMBAR
+		% =========================
+		\column{0.62\textwidth}
+		
+		\begin{center}
+			\begin{tikzpicture}
+				\node[
+				draw=LightGray,
+				fill=white,
+				rounded corners=8pt,
+				inner sep=0.12cm
+				] {
+					\includegraphics[
+					width=0.96\linewidth,
+					keepaspectratio
+					]{images/Reports/StockClosing.png}
+				};
+			\end{tikzpicture}
+		\end{center}
+		
+		
+		% =========================
+		% JARAK
+		% =========================
+		\column{0.04\textwidth}
+		
+		
+		% =========================
+		% KETERANGAN
+		% =========================
+		\column{0.34\textwidth}
+		
+		\begin{tikzpicture}
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=10pt,
+			inner sep=0.35cm,
+			text width=0.90\linewidth,
+			align=left
+			] {
+				{\Large\textbf{\textcolor{PrimaryDark}{Stock Closing}}}
+				
+				\vspace{0.25cm}
+				
+				\large
+				Menampilkan posisi stok pada
+				tanggal tertentu (yang diposting oleh Warehouse Head) sebagai data
+				historis dan pembanding.
+				
+				\vspace{0.25cm}
+				
+				\large\textbf{Informasi yang dapat dipantau:}
+				
+				\vspace{0.08cm}
+				
+				\large
+				\begin{itemize}
+					\item Periode closing
+					\item Warehouse
+					\item Kode Barang
+					\item Nama Barang
+					\item Satuan Barang
+					\item Quantity stok
+				\end{itemize}
+			};
+		\end{tikzpicture}
+		
+	\end{columns}
+	
+\end{frame}
+
+
+\begin{frame}{06.3 --- Mutation Report}
+	
+	\vspace{-0.15cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		% =========================
+		% GAMBAR
+		% =========================
+		\column{0.62\textwidth}
+		
+		\begin{center}
+			\begin{tikzpicture}
+				\node[
+				draw=LightGray,
+				fill=white,
+				rounded corners=8pt,
+				inner sep=0.12cm
+				] {
+					\includegraphics[
+					width=0.96\linewidth,
+					keepaspectratio
+					]{images/Reports/MutationReport.png}
+				};
+			\end{tikzpicture}
+		\end{center}
+		
+		
+		% =========================
+		% JARAK
+		% =========================
+		\column{0.04\textwidth}
+		
+		
+		% =========================
+		% KETERANGAN
+		% =========================
+		\column{0.34\textwidth}
+		
+		\begin{tikzpicture}
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=10pt,
+			inner sep=0.35cm,
+			text width=0.90\linewidth,
+			align=left
+			] {
+				{\Large\textbf{\textcolor{PrimaryDark}{Mutation Report}}}
+				
+				\vspace{0.25cm}
+				
+				\large
+				Menampilkan riwayat pergerakan
+				barang masuk (GR) dan keluar (GI)
+				pada warehouse.
+				
+				\vspace{0.25cm}
+				
+				\large\textbf{Informasi yang dapat dipantau:}
+				
+				\vspace{0.08cm}
+				
+				\large
+				\begin{itemize}
+					\item Tanggal transaksi
+					\item Nomor Dokumen Transaksi
+					\item Jenis mutasi tipe GI(keluar)/GR (masuk)
+					\item Kode dan Nama Barang
+					\item Satuan Barang
+					\item Jumlah Barang Masuk
+					\item Jumlah Barang Keluar
+					\item Saldo Barang Pasca Transaksi
+					\item Nama akun yang melakukan Transaksi
+					\item Nomor Request yang menjadi dasar transaksi
+				\end{itemize}
+			};
+		\end{tikzpicture}
+		
+	\end{columns}
+	
+\end{frame}
+
+\begin{frame}{06.4 --- Histori Request}
+	
+	\vspace{-0.15cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		% =========================
+		% GAMBAR
+		% =========================
+		\column{0.62\textwidth}
+		
+		\begin{center}
+			\begin{tikzpicture}
+				\node[
+				draw=LightGray,
+				fill=white,
+				rounded corners=8pt,
+				inner sep=0.12cm
+				] {
+					\includegraphics[
+					width=0.96\linewidth,
+					keepaspectratio
+					]{images/Reports/RequestReport.png}
+				};
+			\end{tikzpicture}
+		\end{center}
+		
+		
+		% =========================
+		% JARAK
+		% =========================
+		\column{0.04\textwidth}
+		
+		
+		% =========================
+		% KETERANGAN
+		% =========================
+		\column{0.34\textwidth}
+		
+		\begin{tikzpicture}
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=10pt,
+			inner sep=0.35cm,
+			text width=0.90\linewidth,
+			align=left
+			] {
+				{\Large\textbf{\textcolor{PrimaryDark}{Histori Request}}}
+				
+				\vspace{0.25cm}
+				
+				\large
+				Menampilkan riwayat request barang
+				serta pemenuhan request.
+				
+				\vspace{0.25cm}
+				
+				\large\textbf{Informasi yang dapat dipantau:}
+				
+				\vspace{0.08cm}
+				
+				\large
+				\begin{itemize}
+					\item Nomor Request
+					\item Nama Pemohon dan Kategori Barang yang di buat permohonan
+					\item Status Approval
+					\item List Item request serta Jumlah Request (Requested), Jumlah Terpenuhi (Fulfiled) dan jumlah barang yang masi belum terpenuhi (Outstanding).
+				\end{itemize}
+			};
+		\end{tikzpicture}
+		
+	\end{columns}
+	
+\end{frame}
+
+\begin{frame}{07 --- Discussion}
+	
+	\vspace{-0.15cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		% =========================
+		% GAMBAR
+		% =========================
+		\column{0.62\textwidth}
+		
+		\begin{center}
+			\begin{tikzpicture}
+				\node[
+				draw=LightGray,
+				fill=white,
+				rounded corners=8pt,
+				inner sep=0.12cm
+				] {
+					\includegraphics[
+					width=0.96\linewidth,
+					keepaspectratio
+					]{images/Discussion/Discussion1.png}
+				};
+			\end{tikzpicture}
+		\end{center}
+		
+		
+		% =========================
+		% JARAK
+		% =========================
+		\column{0.04\textwidth}
+		
+		
+		% =========================
+		% KETERANGAN
+		% =========================
+		\column{0.34\textwidth}
+		
+		\begin{tikzpicture}
+			\node[
+			draw=Primary,
+			fill=Secondary,
+			rounded corners=10pt,
+			inner sep=0.35cm,
+			text width=0.90\linewidth,
+			align=left
+			] {
+				{\Large\textbf{\textcolor{PrimaryDark}{Discussion}}}
+				
+				\vspace{0.25cm}
+				
+				\large
+				Fitur komunikasi  untuk membahas
+				request, transaksi, terutama untuk memudahkan pemohon/User untuk melakukan follow up ke Kepala Gudang.
+				
+				\vspace{0.25cm}
+				
+				\large\textbf{Fungsi utama:}
+				
+				\vspace{0.08cm}
+				
+				\large
+				\begin{itemize}
+					\item Membuat topik diskusi (threads) yang dapat melampirkan nomor request/transaksi pemohon.
+					\item Mengirim pesan dan tanggapan secara eksplisit atau Anonim.
+				\end{itemize}
+			};
+		\end{tikzpicture}
+		
+	\end{columns}
+	
+\end{frame}
+
+
+
+\begin{frame}{07 --- Discussion}
+	
+	\vspace{-0.25cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		\column{0.65\textwidth}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				inner sep=0,
+				outer sep=0
+				] (screen)
+				{
+					\only<1>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion1.png}
+					}
+					
+					\only<2>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion2.png}
+					}
+					
+					\only<3>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion3.png}
+					}
+					
+					\only<4>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion4.png}
+					}
+					
+					\only<5>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion5.png}
+					}
+					
+					\only<6>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion6.png}
+					}
+				};
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		\column{0.025\textwidth}
+		
+		\column{0.325\textwidth}
+		
+		\stepcounterdisplay{1}{6}
+		\stepcounterdisplay{2}{6}
+		\stepcounterdisplay{3}{6}
+		\stepcounterdisplay{4}{6}
+		\stepcounterdisplay{5}{6}
+		\stepcounterdisplay{6}{6}
+		
+		\sectionlabel{Langkah}
+		
+		\vspace{0.08cm}
+		
+		\stepitem{1}{1}{
+			Pilih menu \textbf{Discussion}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{2}{2}{
+			Pilih \textbf{+ New Discussion}.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{3}{3}{
+			Tuliskan keluhan anda di kolom (Title \textcolor{red}{*}).
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{4}{4}{
+			Reference digunakan untuk menentukan objek yang menjadi acuan dalam Discussion.\\
+				General — untuk pembahasan umum.\\
+				Request — untuk pembahasan terkait Request barang.\\
+				Transaction — untuk pembahasan terkait transaksi barang.\\
+				Item — untuk pembahasan terkait item atau barang tertentu.\\
+				Warehouse - untuk pembahasan terkait gudang.\\
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{5}{5}{
+			Lampirkan \textbf{Nomor Request/Transaksi} atau \textbf{Nama Item/Gudang} sebagai tagar agar pembahasan lebih mudah dipahami dan ditelusuri.
+		}
+		
+		\vspace{\TutorialGap}
+		
+		\stepitem{6}{6}{
+			Aktifkan \textbf{Post Anonymously} jika Anda ingin
+			mengirim Discussion tanpa menampilkan nama Anda. Namun jika tidak diperlukan matikan fitur ini.
+		}
+		
+	\end{columns}
+	
+\end{frame}
+\begin{frame}{07 --- Discussion}
+	
+	\vspace{-0.25cm}
+	
+	\begin{columns}[T,totalwidth=\textwidth]
+		
+		\column{0.65\textwidth}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				inner sep=0,
+				outer sep=0
+				] (screen)
+				{
+					\only<1>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion7.png}
+					}
+					
+					\only<2>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion8.png}
+					}
+					
+					\only<3>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion9.png}
+					}
+					
+					\only<4>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion10.png}
+					}
+					
+					\only<5>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion11.png}
+					}
+					
+					\only<6>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion12.png}
+					}
+					
+					\only<7>{
+						\includegraphics[
+						width=0.95\linewidth,
+						keepaspectratio
+						]{images/Discussion/Discussion13.png}
 					}
 				};
 				
@@ -2348,526 +3501,125 @@ akun yang diberikan administrator.
 		\vspace{0.08cm}
 		
 		\stepitem{1}{1}{
-			Pilih \textbf{Transaction} $>$ \textbf{Goods Issue}.
+			Pilih \textbf{+ Create} untuk
+			membuat Discussion.
 		}
 		
 		\vspace{\TutorialGap}
 		
 		\stepitem{2}{2}{
-			Pilih request yang akan diproses.
+			Pastikan Discussion berhasil dibuat
+			dan tampil pada daftar Discussion.
 		}
 		
 		\vspace{\TutorialGap}
 		
 		\stepitem{3}{3}{
-			Periksa data request dan barang yang akan dikeluarkan, pastikan jumlah QTY GI dan Request/Oustanding sama.
+			Jika terdapat balasan pada Discussion,
+			akan muncul indikator berwarna merah.
 		}
 		
 		\vspace{\TutorialGap}
 		
 		\stepitem{4}{4}{
-			Pilih \textbf{Review} (periksa kembali), kemudian pilih \textbf{Lanjut Konfirmasi}.
+			Pilih ikon dialog untuk melihat
+			pesan atau tanggapan.
 		}
 		
 		\vspace{\TutorialGap}
 		
 		\stepitem{5}{5}{
-			Isi Kolom Received By dengan Nama Penerima Barang.
+			Baca pesan tanggapan, kemudian
+			tuliskan balasan pada kolom yang tersedia.
 		}
 		
 		\vspace{\TutorialGap}
 		
 		\stepitem{6}{6}{
-			Periksa kembali detail transaksi.
+			Pilih ikon \textbf{Pesawat} untuk
+			mengirim balasan.
 		}
 		
 		\vspace{\TutorialGap}
 		
 		\stepitem{7}{7}{
-			Simpan transaksi.
+			Jika pembahasan sudah selesai, pilih ikon \textbf{(X)} untuk menutup ruang Discussion.
 		}
 		
 	\end{columns}
 	
-\end{frame}
-	
-
-
-% =========================================================
-% GOODS ISSUE
-% =========================================================
-
-\begin{frame}{04 --- Goods Issue (GI) Pengeluaran Barang}
-
-\vspace{-0.25cm}
-
-\begin{columns}[T,totalwidth=\textwidth]
-
-\column{0.65\textwidth}
-
-\begin{center}
-
-\begin{tikzpicture}
-
-\node[
-    inner sep=0,
-    outer sep=0
-] (screen)
-{
-    \includegraphics[
-        width=\linewidth,
-        keepaspectratio
-    ]{images/goods-issue.png}
-};
-
-\highlight{1}{0.25cm}{2.55cm}{6.0cm}{0.55cm}
-\highlight{2}{0.25cm}{1.9cm}{6.0cm}{0.55cm}
-\highlight{3}{0.25cm}{1.25cm}{6.0cm}{0.55cm}
-\highlight{4}{0.25cm}{0.6cm}{6.0cm}{0.55cm}
-\successhighlight{5}{4.2cm}{0.15cm}{1.6cm}{0.55cm}
-
-\end{tikzpicture}
-
-\end{center}
-
-\column{0.025\textwidth}
-
-\column{0.325\textwidth}
-
-\stepcounterdisplay{1}{5}
-\stepcounterdisplay{2}{5}
-\stepcounterdisplay{3}{5}
-\stepcounterdisplay{4}{5}
-\stepcounterdisplay{5}{5}
-
-\sectionlabel{Langkah}
-
-\vspace{0.08cm}
-
-\stepitem{1}{1}{Buka menu \textbf{Goods Issue}.}
-
-\vspace{\TutorialGap}
-
-\stepitem{2}{2}{Pilih request yang telah \textbf{APPROVED}.}
-
-\vspace{\TutorialGap}
-
-\stepitem{3}{3}{Periksa outstanding quantity.}
-
-\vspace{\TutorialGap}
-
-\stepitem{4}{4}{Pastikan stock mencukupi.}
-
-\vspace{\TutorialGap}
-
-\stepitem{5}{5}{Simpan transaksi Goods Issue.}
-
-\vspace{0.12cm}
-
-\warningbox{Validasi}{
-GI tidak dapat dilakukan jika stock tidak mencukupi.
-}
-
-\end{columns}
-
-\end{frame}
-
-% =========================================================
-% INVENTORY
-% =========================================================
-
-\begin{frame}{06 --- Inventory}
-
-\vspace{-0.25cm}
-
-\begin{columns}[T,totalwidth=\textwidth]
-
-\column{0.65\textwidth}
-
-\begin{center}
-
-\begin{tikzpicture}
-
-\node[
-    inner sep=0,
-    outer sep=0
-] (screen)
-{
-    \includegraphics[
-        width=\linewidth,
-        keepaspectratio
-    ]{images/current-stock.png}
-};
-
-\highlight{1}{0.2cm}{2.4cm}{6.5cm}{0.7cm}
-\highlight{2}{0.2cm}{1.3cm}{6.5cm}{0.8cm}
-\highlight{3}{0.2cm}{0.3cm}{6.5cm}{0.7cm}
-
-\end{tikzpicture}
-
-\end{center}
-
-\column{0.025\textwidth}
-
-\column{0.325\textwidth}
-
-\stepcounterdisplay{1}{3}
-\stepcounterdisplay{2}{3}
-\stepcounterdisplay{3}{3}
-
-\sectionlabel{Inventory}
-
-\vspace{0.08cm}
-
-\stepitem{1}{1}{
-Pilih warehouse yang ingin diperiksa.
-}
-
-\vspace{\TutorialGap}
-
-\stepitem{2}{2}{
-Cari item yang diperlukan.
-}
-
-\vspace{\TutorialGap}
-
-\stepitem{3}{3}{
-Periksa quantity current stock.
-}
-
-\vspace{0.20cm}
-
-{\fontsize{19}{23}\selectfont
-\textbf{\color{Primary}Stock Mutation}
-}
-
-\vspace{0.08cm}
-
-{\fontsize{15.5}{20}\selectfont
-
-Histori perubahan stock akibat transaksi
-\textbf{IN} dan \textbf{OUT} dapat digunakan
-untuk melakukan penelusuran transaksi.
-
-}
-
-\end{columns}
-
-\end{frame}
-
-% =========================================================
-% REPORT
-% =========================================================
-
-\begin{frame}{07 --- Reports}
-
-\vspace{-0.25cm}
-
-\begin{columns}[T,totalwidth=\textwidth]
-
-\column{0.65\textwidth}
-
-\begin{center}
-
-\begin{tikzpicture}
-
-\node[
-    inner sep=0,
-    outer sep=0
-] (screen)
-{
-    \includegraphics[
-        width=\linewidth,
-        keepaspectratio
-    ]{images/report.png}
-};
-
-\highlight{1}{0.2cm}{2.55cm}{8.0cm}{0.65cm}
-\highlight{2}{0.2cm}{1.8cm}{3.8cm}{0.55cm}
-\highlight{3}{4.2cm}{1.8cm}{4.0cm}{0.55cm}
-\highlight{4}{0.2cm}{1.0cm}{8.0cm}{0.65cm}
-\highlight{5}{0.2cm}{0.25cm}{8.0cm}{0.55cm}
-
-\end{tikzpicture}
-
-\end{center}
-
-\column{0.025\textwidth}
-
-\column{0.325\textwidth}
-
-\stepcounterdisplay{1}{5}
-\stepcounterdisplay{2}{5}
-\stepcounterdisplay{3}{5}
-\stepcounterdisplay{4}{5}
-\stepcounterdisplay{5}{5}
-
-\sectionlabel{Langkah}
-
-\vspace{0.08cm}
-
-\stepitem{1}{1}{Buka menu \textbf{Reports}.}
-
-\vspace{\TutorialGap}
-
-\stepitem{2}{2}{Tentukan periode laporan.}
-
-\vspace{\TutorialGap}
-
-\stepitem{3}{3}{Pilih warehouse.}
-
-\vspace{\TutorialGap}
-
-\stepitem{4}{4}{Periksa data IN dan OUT.}
-
-\vspace{\TutorialGap}
-
-\stepitem{5}{5}{Gunakan hasil laporan untuk monitoring inventory.}
-
-\end{columns}
-
-\end{frame}
-
-% =========================================================
-% DISCUSSION
-% =========================================================
-
-\begin{frame}{08 --- Discussion}
-
-\vspace{-0.25cm}
-
-\begin{columns}[T,totalwidth=\textwidth]
-
-\column{0.65\textwidth}
-
-\begin{center}
-
-\begin{tikzpicture}
-
-\node[
-    inner sep=0,
-    outer sep=0
-] (screen)
-{
-    \includegraphics[
-        width=\linewidth,
-        keepaspectratio
-    ]{images/discussion.png}
-};
-
-\highlight{1}{0.2cm}{2.45cm}{6.8cm}{0.65cm}
-\highlight{2}{0.2cm}{1.65cm}{6.8cm}{0.65cm}
-\highlight{3}{0.2cm}{0.85cm}{6.8cm}{0.65cm}
-\successhighlight{4}{5.0cm}{0.15cm}{1.5cm}{0.55cm}
-
-\end{tikzpicture}
-
-\end{center}
-
-\column{0.025\textwidth}
-
-\column{0.325\textwidth}
-
-\stepcounterdisplay{1}{4}
-\stepcounterdisplay{2}{4}
-\stepcounterdisplay{3}{4}
-\stepcounterdisplay{4}{4}
-
-\sectionlabel{Langkah}
-
-\vspace{0.08cm}
-
-\stepitem{1}{1}{Buka menu \textbf{Discussion}.}
-
-\vspace{\TutorialGap}
-
-\stepitem{2}{2}{Pilih thread yang relevan.}
-
-\vspace{\TutorialGap}
-
-\stepitem{3}{3}{Baca atau tambahkan pesan diskusi.}
-
-\vspace{\TutorialGap}
-
-\stepitem{4}{4}{Gunakan discussion untuk koordinasi operasional.}
-
-\end{columns}
-
-\end{frame}
-
-% =========================================================
-% TROUBLESHOOTING
-% =========================================================
-
-\begin{frame}{09 --- Troubleshooting}
-
-\vspace{-0.25cm}
-
-\begin{center}
-
-\fontsize{15.5}{20}\selectfont
-
-\renewcommand{\arraystretch}{1.55}
-
-\begin{tabular}{
-    p{0.34\textwidth}
-    p{0.54\textwidth}
-}
-
-\toprule
-
-\textbf{Masalah}
-&
-\textbf{Solusi}
-\\
-
-\midrule
-
-Tidak dapat login
-&
-Periksa username dan password.
-\\
-
-Request tidak dapat dibuat
-&
-Pastikan seluruh field wajib telah diisi.
-\\
-
-GI tidak dapat dilakukan
-&
-Pastikan request APPROVED dan stock mencukupi.
-\\
-
-Stock tidak sesuai
-&
-Periksa Stock Mutation dan transaksi terkait.
-\\
-
-\bottomrule
-
-\end{tabular}
-
-\end{center}
-
-\end{frame}
-
-% =========================================================
-% FAQ
-% =========================================================
-
-\begin{frame}{10 --- FAQ}
-
-\vspace{-0.10cm}
-
-{\fontsize{18}{23}\selectfont
-
-\textbf{\color{Primary}
-Q: Mengapa GI saya tidak dapat diproses?
-}
-
-\vspace{0.12cm}
-
-{\fontsize{16}{21}\selectfont
-Pastikan request telah berstatus
-\textbf{APPROVED} dan quantity stock mencukupi.
-}
-
-\vspace{0.48cm}
-
-\textbf{\color{Primary}
-Q: Apakah satu request bisa memiliki beberapa GI?
-}
-
-\vspace{0.12cm}
-
-{\fontsize{16}{21}\selectfont
-Ya. Selama masih terdapat outstanding quantity,
-request dapat diproses kembali.
-}
-
-\vspace{0.48cm}
-
-\textbf{\color{Primary}
-Q: Bagaimana mengetahui histori perubahan stock?
-}
-
-\vspace{0.12cm}
-
-{\fontsize{16}{21}\selectfont
-Gunakan menu \textbf{Stock Mutation}.
-}
-
-}
-
 \end{frame}
 
 % =========================================================
 % CLOSING
 % =========================================================
 
+
 {
-\setbeamertemplate{footline}{}
-
-\begin{frame}
-
-\centering
-
-\vspace{1.15cm}
-
-{\fontsize{38}{44}\selectfont
-\textbf{\color{Primary}THANK YOU}
+	\setbeamertemplate{footline}{}
+	
+	\begin{frame}
+		
+		\centering
+		
+		\vspace{1.15cm}
+		
+		{\fontsize{38}{44}\selectfont
+			\textbf{\color{Primary}THANK YOU}
+		}
+		
+		\vspace{0.55cm}
+		
+		{\fontsize{22}{27}\selectfont
+			TJI Inventory Non Dagang
+		}
+		
+		\vspace{0.85cm}
+		
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				\node[
+				draw=Primary,
+				line width=1pt,
+				fill=Secondary,
+				rounded corners=6pt,
+				inner xsep=18pt,
+				inner ysep=12pt,
+				text width=0.65\textwidth,
+				align=center
+				]{
+					
+					{\fontsize{18}{22}\selectfont
+						\textbf{\color{Primary}Terima Kasih Atas Perhatian Anda}}
+					
+					\\[5pt]
+					
+					{\fontsize{15.5}{20}\selectfont
+						Hubungi administrator aplikasi apabila mengalami
+						kendala dalam penggunaan sistem.
+					}
+					
+				};
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		\vfill
+		
+		{\fontsize{14}{18}\selectfont
+			PT Timur Jaya Indo Steel -- 2026
+		}
+		
+		\vspace{0.45cm}
+		
+	\end{frame}
+	
 }
 
-\vspace{0.55cm}
 
-{\fontsize{22}{27}\selectfont
-TJI Inventory Non Dagang
-}
-
-\vspace{0.85cm}
-
-\begin{center}
-
-\begin{tikzpicture}
-
-\node[
-    draw=Primary,
-    line width=1pt,
-    fill=Secondary,
-    rounded corners=6pt,
-    inner xsep=18pt,
-    inner ysep=12pt,
-    text width=0.65\textwidth,
-    align=center
-]{
-
-{\fontsize{18}{22}\selectfont
-\textbf{\color{Primary}Need Help?}}
-
-\\[5pt]
-
-{\fontsize{15.5}{20}\selectfont
-Hubungi administrator aplikasi apabila mengalami
-kendala dalam penggunaan sistem.
-}
-
-};
-
-\end{tikzpicture}
-
-\end{center}
-
-\vfill
-
-{\fontsize{14}{18}\selectfont
-PT Timur Jaya Indo Steel -- 2026
-}
-
-\vspace{0.45cm}
-
-\end{frame}
-
-}
 
 \end{document}
 

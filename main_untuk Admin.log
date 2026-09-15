@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.11)  12 SEP 2026 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.11)  15 SEP 2026 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -773,11 +773,37 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \backup@length=\skip68
 \ar@cellbox=\box79
 )
+(C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
+.sty (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+
+(C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
+x.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count362
+))
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+
+(C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3key
+s2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
+sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+(C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
+-generic-helper.sty
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
+tawesome5
+
+(C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
+-mapping.def)))
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
 \everycr=\toks47
 \minrowclearance=\skip69
-\rownum=\count362
+\rownum=\count363
 )
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.st
 y (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
@@ -818,7 +844,7 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
 yplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count363
+\pgf@plot@mark@count=\count364
 \pgfplotmarksize=\dimen321
 )
 \tikz@lastx=\dimen322
@@ -833,19 +859,19 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@figbox@bg=\box82
 \tikz@tempbox=\box83
 \tikz@tempbox@bg=\box84
-\tikztreelevel=\count364
-\tikznumberofchildren=\count365
-\tikznumberofcurrentchild=\count366
-\tikz@fig@count=\count367
+\tikztreelevel=\count365
+\tikznumberofchildren=\count366
+\tikznumberofcurrentchild=\count367
+\tikz@fig@count=\count368
 
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulema
 trix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count368
-\pgfmatrixcurrentcolumn=\count369
-\pgf@matrix@numberofcolumns=\count370
+\pgfmatrixcurrentrow=\count369
+\pgfmatrixcurrentcolumn=\count370
+\pgf@matrix@numberofcolumns=\count371
 )
-\tikz@expandcount=\count371
+\tikz@expandcount=\count372
 
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
 libraries\tikzlibrarytopaths.code.tex
@@ -879,31 +905,27 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \TutorialGap=\skip84
 \SectionGap=\skip85
 
-(C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
-x.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count372
-) (main_untuk Admin.aux)
+(main_untuk Admin.aux)
 \openout1 = `"main_untuk Admin.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 415.
+LaTeX Font Info:    ... okay on input line 415.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -914,11 +936,11 @@ LaTeX Font Info:    ... okay on input line 414.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
 * h-part:(L,W,R)=(28.45274pt, 1099.4145pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 542.025pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 614.295pt, 0.0pt)
 * \paperwidth=1156.31999pt
-* \paperheight=542.025pt
+* \paperheight=614.295pt
 * \textwidth=1099.4145pt
-* \textheight=513.57227pt
+* \textheight=585.84227pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -963,63 +985,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 414.
+Package hyperref Info: Link coloring OFF on input line 415.
  (main_untuk Admin.out) (main_untuk Admin.out)
 \@outlinefile=\write5
 \openout5 = `"main_untuk Admin.out"'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 414.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 415.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 414.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 415.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 414.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 414.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 415.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 414.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 414.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 414.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 415.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 414.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 414.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 414.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 415.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 414.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 414.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 414.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 415.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 414.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 414.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 415.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 414.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 415.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 414.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 414.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 414.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 414.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 414.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 415.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 414.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 414.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 415.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 415.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-14.
+15.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 4
-14.
+15.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 414.
+ut line 415.
 
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bas
 ic-dictionary-English.dict
@@ -1045,7 +1067,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (main_untuk Admin.nav)
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 414--414
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 415--415
 [][][][]  
  []
 
@@ -1056,7 +1078,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.590 \end{frame}
+l.591 \end{frame}
                  
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -1067,69 +1089,69 @@ and deduce the truth by order and method.
 File: images/logo-tji-removebg-preview.png Graphic file (type png)
 <use images/logo-tji-removebg-preview.png>
 Package pdftex.def Info: images/logo-tji-removebg-preview.png  used on input li
-ne 590.
+ne 591.
 (pdftex.def)             Requested size: 270.30118pt x 115.18866pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/sc' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 590.
+(Font)              using `OT1/cmss/bx/n' instead on input line 591.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <34> not available
-(Font)              size <35.83> substituted on input line 590.
+(Font)              size <35.83> substituted on input line 591.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <34> not available
-(Font)              size <35.83> substituted on input line 590.
+(Font)              size <35.83> substituted on input line 591.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 590.
+(Font)              size <17.28> substituted on input line 591.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <18> not available
-(Font)              size <17.28> substituted on input line 590.
+(Font)              size <17.28> substituted on input line 591.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 590.
+(Font)              size <14.4> substituted on input line 591.
 
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-590.
-LaTeX Font Info:    No file OMScmss.fd. on input line 590.
+591.
+LaTeX Font Info:    No file OMScmss.fd. on input line 591.
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbar' on input line 590.
+(Font)              for symbol `textbar' on input line 591.
 
 [1
 
 {C:/Users/TJI/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/logo-
 tji-removebg-preview.png>]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 671--671
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 672--672
 [][][][]  
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 671.
+(Font)              size <20.74> substituted on input line 672.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 671.
+(Font)              size <20.74> substituted on input line 672.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 671
+LaTeX Font Info:    Trying to load font information for U+msa on input line 672
 .
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 671
+LaTeX Font Info:    Trying to load font information for U+msb on input line 672
 .
 
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 671.
+ut line 672.
 
 (C:\Users\TJI\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathker
 ncmss.fd
@@ -1138,7 +1160,7 @@ thkerncmss.
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <16.5> not available
-(Font)              size <17.28> substituted on input line 671.
+(Font)              size <17.28> substituted on input line 672.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1147,7 +1169,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.671 \end{frame}
+l.672 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1155,10 +1177,10 @@ or  <return>  to continue without it.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <15.5> not available
-(Font)              size <14.4> substituted on input line 671.
+(Font)              size <14.4> substituted on input line 672.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 671--671
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 672--672
 [][] 
  []
 
@@ -1170,43 +1192,43 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [2
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 769--769
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 770--770
 [][][][]  
  []
 
 
-Overfull \hbox (0.14168pt too wide) in paragraph at lines 769--769
+Overfull \hbox (0.14168pt too wide) in paragraph at lines 770--770
  [] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 769.
+(Font)              size <12> substituted on input line 770.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 769.
+(Font)              size <12> substituted on input line 770.
 
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 769.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 770.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 769.
+(Font)              size <6> substituted on input line 770.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 769.
+(Font)              size <12> substituted on input line 770.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 769.
+(Font)              size <6> substituted on input line 770.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 769.
+(Font)              size <12> substituted on input line 770.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 769.
+(Font)              size <6> substituted on input line 770.
 
 
 Overfull \hbox (6.37508pt too wide) has occurred while \output is active
@@ -1216,7 +1238,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [3
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 868--868
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 869--869
 [][][][]  
  []
 
@@ -1228,7 +1250,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [4
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 952--952
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 953--953
 [][][][]  
  []
 
@@ -1240,41 +1262,41 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [5
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1065--1065
 [][][][]  
  []
 
 <images/Login/login1.png, id=48, 1784.6675pt x 1814.78pt>
 File: images/Login/login1.png Graphic file (type png)
 <use images/Login/login1.png>
-Package pdftex.def Info: images/Login/login1.png  used on input line 1064.
+Package pdftex.def Info: images/Login/login1.png  used on input line 1065.
 (pdftex.def)             Requested size: 514.52202pt x 523.19899pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <16.5> not available
-(Font)              size <17.28> substituted on input line 1064.
+(Font)              size <17.28> substituted on input line 1065.
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <16.5> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1064.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1065.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <16.5> not available
-(Font)              size <17.28> substituted on input line 1064.
+(Font)              size <17.28> substituted on input line 1065.
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1064.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1065.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1065--1065
 [][]  
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1064.
+(Font)              size <17.28> substituted on input line 1065.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1064.
+(Font)              size <17.28> substituted on input line 1065.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1283,19 +1305,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1064 \end{frame}
+l.1065 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1065--1065
 [][] 
  []
 
 
-Overfull \vbox (90.46118pt too high) detected at line 1064
+Overfull \vbox (18.19118pt too high) detected at line 1065
  []
 
 
@@ -1309,15 +1331,15 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Login/login2.png, id=56, 1794.705pt x 1814.78pt>
 File: images/Login/login2.png Graphic file (type png)
 <use images/Login/login2.png>
-Package pdftex.def Info: images/Login/login2.png  used on input line 1064.
+Package pdftex.def Info: images/Login/login2.png  used on input line 1065.
 (pdftex.def)             Requested size: 514.52202pt x 520.26372pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1064.
+(Font)              size <17.28> substituted on input line 1065.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1065--1065
 [][]  
  []
 
@@ -1328,19 +1350,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1064 \end{frame}
+l.1065 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1065--1065
 [][] 
  []
 
 
-Overfull \vbox (87.52591pt too high) detected at line 1064
+Overfull \vbox (15.2559pt too high) detected at line 1065
  []
 
 
@@ -1354,10 +1376,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Login/login3.png, id=64, 1794.705pt x 1814.78pt>
 File: images/Login/login3.png Graphic file (type png)
 <use images/Login/login3.png>
-Package pdftex.def Info: images/Login/login3.png  used on input line 1064.
+Package pdftex.def Info: images/Login/login3.png  used on input line 1065.
 (pdftex.def)             Requested size: 514.52202pt x 520.26372pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1065--1065
 [][]  
  []
 
@@ -1368,19 +1390,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1064 \end{frame}
+l.1065 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1065--1065
 [][] 
  []
 
 
-Overfull \vbox (87.52591pt too high) detected at line 1064
+Overfull \vbox (15.2559pt too high) detected at line 1065
  []
 
 
@@ -1393,10 +1415,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
  <./images/Login/login3.png>]
 File: images/Login/login3.png Graphic file (type png)
 <use images/Login/login3.png>
-Package pdftex.def Info: images/Login/login3.png  used on input line 1064.
+Package pdftex.def Info: images/Login/login3.png  used on input line 1065.
 (pdftex.def)             Requested size: 514.52202pt x 520.26372pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1065--1065
 [][]  
  []
 
@@ -1407,19 +1429,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1064 \end{frame}
+l.1065 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1064--1064
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1065--1065
 [][] 
  []
 
 
-Overfull \vbox (87.52591pt too high) detected at line 1064
+Overfull \vbox (15.2559pt too high) detected at line 1065
  []
 
 
@@ -1430,7 +1452,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [9
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1179--1179
 [][][][]  
  []
 
@@ -1438,10 +1460,10 @@ Overfull \hbox (6.37508pt too wide) in paragraph at lines 1178--1178
 File: images/Dashboard/Dashboard1.png Graphic file (type png)
 <use images/Dashboard/Dashboard1.png>
 Package pdftex.def Info: images/Dashboard/Dashboard1.png  used on input line 11
-78.
+79.
 (pdftex.def)             Requested size: 571.69235pt x 390.12354pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1179--1179
 [][]  
  []
 
@@ -1452,7 +1474,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1178 \end{frame}
+l.1179 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1460,10 +1482,10 @@ or  <return>  to continue without it.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <15.5> not available
-(Font)              size <14.4> substituted on input line 1178.
+(Font)              size <14.4> substituted on input line 1179.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1179--1179
 [][] 
  []
 
@@ -1479,10 +1501,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 File: images/Dashboard/Dashboard2.png Graphic file (type png)
 <use images/Dashboard/Dashboard2.png>
 Package pdftex.def Info: images/Dashboard/Dashboard2.png  used on input line 11
-78.
+79.
 (pdftex.def)             Requested size: 571.69235pt x 390.12354pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1179--1179
 [][]  
  []
 
@@ -1493,14 +1515,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1178 \end{frame}
+l.1179 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1179--1179
 [][] 
  []
 
@@ -1516,10 +1538,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 File: images/Dashboard/Dashboard3.png Graphic file (type png)
 <use images/Dashboard/Dashboard3.png>
 Package pdftex.def Info: images/Dashboard/Dashboard3.png  used on input line 11
-78.
+79.
 (pdftex.def)             Requested size: 571.69235pt x 390.12354pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1179--1179
 [][]  
  []
 
@@ -1530,14 +1552,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1178 \end{frame}
+l.1179 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1179--1179
 [][] 
  []
 
@@ -1553,10 +1575,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 File: images/Dashboard/Dashboard4.png Graphic file (type png)
 <use images/Dashboard/Dashboard4.png>
 Package pdftex.def Info: images/Dashboard/Dashboard4.png  used on input line 11
-78.
+79.
 (pdftex.def)             Requested size: 514.52202pt x 407.85208pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1179--1179
 [][]  
  []
 
@@ -1567,14 +1589,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1178 \end{frame}
+l.1179 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1179--1179
 [][] 
  []
 
@@ -1586,7 +1608,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [13
 
  <./images/Dashboard/Dashboard4.png>]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1359--1359
 [][][][]  
  []
 
@@ -1597,14 +1619,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1358 \end{frame}
+l.1359 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1359--1359
 [][] 
  []
 
@@ -1623,14 +1645,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1358 \end{frame}
+l.1359 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1359--1359
 [][] 
  []
 
@@ -1649,14 +1671,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1358 \end{frame}
+l.1359 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1359--1359
 [][] 
  []
 
@@ -1675,14 +1697,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1358 \end{frame}
+l.1359 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1359--1359
 [][] 
  []
 
@@ -1701,14 +1723,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1358 \end{frame}
+l.1359 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1359--1359
 [][] 
  []
 
@@ -1720,28 +1742,28 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [18
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1624--1624
 [][][][]  
  []
 
 <images/Request/Request.png, id=131, 329.73187pt x 341.77687pt>
 File: images/Request/Request.png Graphic file (type png)
 <use images/Request/Request.png>
-Package pdftex.def Info: images/Request/Request.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request.png  used on input line 1624.
 (pdftex.def)             Requested size: 357.30635pt x 370.37035pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
-LaTeX Font Info:    Calculating math sizes for size <16> on input line 1623.
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 1624.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 1623.
+(Font)              size <17.28> substituted on input line 1624.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1623.
+(Font)              size <17.28> substituted on input line 1624.
 
 
 Overfull \hbox (6.37508pt too wide) has occurred while \output is active
@@ -1754,15 +1776,11 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request2.png, id=139, 328.22626pt x 257.46187pt>
 File: images/Request/Request2.png Graphic file (type png)
 <use images/Request/Request2.png>
-Package pdftex.def Info: images/Request/Request2.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request2.png  used on input line 1624.
 (pdftex.def)             Requested size: 571.69235pt x 448.4868pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
- []
-
-
-Overfull \vbox (15.749pt too high) detected at line 1623
  []
 
 
@@ -1776,10 +1794,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request3.png, id=146, 1527.7075pt x 1043.9pt>
 File: images/Request/Request3.png Graphic file (type png)
 <use images/Request/Request3.png>
-Package pdftex.def Info: images/Request/Request3.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request3.png  used on input line 1624.
 (pdftex.def)             Requested size: 571.69235pt x 390.63324pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
@@ -1794,10 +1812,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request4.png, id=153, 1527.7075pt x 1043.9pt>
 File: images/Request/Request4.png Graphic file (type png)
 <use images/Request/Request4.png>
-Package pdftex.def Info: images/Request/Request4.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request4.png  used on input line 1624.
 (pdftex.def)             Requested size: 571.69235pt x 390.63324pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
@@ -1812,10 +1830,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request5.png, id=160, 1527.7075pt x 1043.9pt>
 File: images/Request/Request5.png Graphic file (type png)
 <use images/Request/Request5.png>
-Package pdftex.def Info: images/Request/Request5.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request5.png  used on input line 1624.
 (pdftex.def)             Requested size: 571.69235pt x 390.63324pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
@@ -1830,32 +1848,32 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request7.png, id=167, 1527.7075pt x 1043.9pt>
 File: images/Request/Request7.png Graphic file (type png)
 <use images/Request/Request7.png>
-Package pdftex.def Info: images/Request/Request7.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request7.png  used on input line 1624.
 (pdftex.def)             Requested size: 571.69235pt x 390.63324pt.
-LaTeX Font Info:    Calculating math sizes for size <16.5> on input line 1623.
+LaTeX Font Info:    Calculating math sizes for size <16.5> on input line 1624.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <11.54994> not available
-(Font)              size <12> substituted on input line 1623.
+(Font)              size <12> substituted on input line 1624.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16.5> not available
-(Font)              size <17.28> substituted on input line 1623.
+(Font)              size <17.28> substituted on input line 1624.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <11.54994> not available
-(Font)              size <12> substituted on input line 1623.
+(Font)              size <12> substituted on input line 1624.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.5> not available
-(Font)              size <17.28> substituted on input line 1623.
+(Font)              size <17.28> substituted on input line 1624.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <11.54994> not available
-(Font)              size <12> substituted on input line 1623.
+(Font)              size <12> substituted on input line 1624.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
@@ -1870,15 +1888,15 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request8.png, id=174, 1527.7075pt x 1043.9pt>
 File: images/Request/Request8.png Graphic file (type png)
 <use images/Request/Request8.png>
-Package pdftex.def Info: images/Request/Request8.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request8.png  used on input line 1624.
 (pdftex.def)             Requested size: 571.69235pt x 390.63324pt.
 
-Underfull \hbox (badness 1412) in paragraph at lines 1623--1623
+Underfull \hbox (badness 1412) in paragraph at lines 1624--1624
 [][][]\OT1/cmss/bx/n/17.28 7.[]   [][]*[] Khusus item barang clean-ing 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
@@ -1893,10 +1911,10 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request9.png, id=182, 1527.7075pt x 1043.9pt>
 File: images/Request/Request9.png Graphic file (type png)
 <use images/Request/Request9.png>
-Package pdftex.def Info: images/Request/Request9.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request9.png  used on input line 1624.
 (pdftex.def)             Requested size: 571.69235pt x 390.63324pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
@@ -1911,11 +1929,11 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request10.png, id=189, 1527.7075pt x 1043.9pt>
 File: images/Request/Request10.png Graphic file (type png)
 <use images/Request/Request10.png>
-Package pdftex.def Info: images/Request/Request10.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request10.png  used on input line 1624.
 
 (pdftex.def)             Requested size: 571.69235pt x 390.63324pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
@@ -1930,11 +1948,11 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Request/Request11.png, id=196, 331.99031pt x 227.34938pt>
 File: images/Request/Request11.png Graphic file (type png)
 <use images/Request/Request11.png>
-Package pdftex.def Info: images/Request/Request11.png  used on input line 1623.
+Package pdftex.def Info: images/Request/Request11.png  used on input line 1624.
 
 (pdftex.def)             Requested size: 571.69235pt x 391.55713pt.
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1623--1623
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1624--1624
 [][]  
  []
 
@@ -1946,7 +1964,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [28
 
  <./images/Request/Request11.png>]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1765--1765
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1766--1766
 [][][][]  
  []
 
@@ -1954,7 +1972,7 @@ Overfull \hbox (6.37508pt too wide) in paragraph at lines 1765--1765
 File: images/PostRequest/Request10.png Graphic file (type png)
 <use images/PostRequest/Request10.png>
 Package pdftex.def Info: images/PostRequest/Request10.png  used on input line 1
-765.
+766.
 (pdftex.def)             Requested size: 571.69235pt x 392.92635pt.
 
 ! Package PGF Math Error: Unknown function `Xcm' (in 'Xcm').
@@ -1963,7 +1981,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -1974,7 +1992,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -1985,7 +2003,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -1996,7 +2014,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2007,7 +2025,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2018,7 +2036,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2029,7 +2047,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2040,12 +2058,12 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1765--1765
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1766--1766
 [][]  
  []
 
@@ -2061,7 +2079,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 File: images/PostRequest/Request11.png Graphic file (type png)
 <use images/PostRequest/Request11.png>
 Package pdftex.def Info: images/PostRequest/Request11.png  used on input line 1
-765.
+766.
 (pdftex.def)             Requested size: 571.69235pt x 393.22961pt.
 
 
@@ -2071,7 +2089,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2082,7 +2100,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2093,7 +2111,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2104,7 +2122,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2115,7 +2133,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2126,7 +2144,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2137,7 +2155,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2148,12 +2166,12 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1765--1765
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1766--1766
 [][]  
  []
 
@@ -2169,7 +2187,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 File: images/PostRequest/Request12.png Graphic file (type png)
 <use images/PostRequest/Request12.png>
 Package pdftex.def Info: images/PostRequest/Request12.png  used on input line 1
-765.
+766.
 (pdftex.def)             Requested size: 571.69235pt x 393.22961pt.
 
 
@@ -2179,7 +2197,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2190,7 +2208,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2201,7 +2219,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2212,7 +2230,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2223,7 +2241,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2234,7 +2252,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2245,7 +2263,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2256,12 +2274,12 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1765--1765
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1766--1766
 [][]  
  []
 
@@ -2277,7 +2295,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 File: images/PostRequest/Request13.png Graphic file (type png)
 <use images/PostRequest/Request13.png>
 Package pdftex.def Info: images/PostRequest/Request13.png  used on input line 1
-765.
+766.
 (pdftex.def)             Requested size: 571.69235pt x 369.85695pt.
 
 
@@ -2287,7 +2305,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2298,7 +2316,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2309,7 +2327,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2320,7 +2338,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2331,7 +2349,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2342,7 +2360,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2353,7 +2371,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2364,12 +2382,12 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1765--1765
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1766--1766
 [][]  
  []
 
@@ -2384,7 +2402,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 File: images/PostRequest/Request13.png Graphic file (type png)
 <use images/PostRequest/Request13.png>
 Package pdftex.def Info: images/PostRequest/Request13.png  used on input line 1
-765.
+766.
 (pdftex.def)             Requested size: 571.69235pt x 369.85695pt.
 
 
@@ -2394,7 +2412,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2405,7 +2423,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2416,7 +2434,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2427,7 +2445,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2438,7 +2456,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2449,7 +2467,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2460,7 +2478,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
@@ -2471,12 +2489,12 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1765 \end{frame}
+l.1766 \end{frame}
                   
 (That was another \errmessage.)
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 1765--1765
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 1766--1766
 [][]  
  []
 
@@ -2488,7 +2506,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [33
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1792--1792
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1793--1793
 [][][][]  
  []
 
@@ -2499,19 +2517,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1792 \end{frame}
+l.1793 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1.0pt too wide) in paragraph at lines 1792--1792
+Overfull \hbox (1.0pt too wide) in paragraph at lines 1793--1793
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1792--1792
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
 
  []
 
@@ -2523,7 +2541,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [34
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 1849--1849
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 1850--1850
 [][][][]  
  []
 
@@ -2534,19 +2552,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1849 \end{frame}
+l.1850 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1.0pt too wide) in paragraph at lines 1849--1849
+Overfull \hbox (1.0pt too wide) in paragraph at lines 1850--1850
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1849--1849
+Underfull \hbox (badness 10000) in paragraph at lines 1850--1850
 
  []
 
@@ -2557,19 +2575,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1849 \end{frame}
+l.1850 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1.0pt too wide) in paragraph at lines 1849--1849
+Overfull \hbox (1.0pt too wide) in paragraph at lines 1850--1850
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1849--1849
+Underfull \hbox (badness 10000) in paragraph at lines 1850--1850
 
  []
 
@@ -2581,23 +2599,23 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [35
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2087--2087
 [][][][]  
  []
 
 <images/Approval/Approval1.png, id=248, 1027.58907pt x 519.44063pt>
 File: images/Approval/Approval1.png Graphic file (type png)
 <use images/Approval/Approval1.png>
-Package pdftex.def Info: images/Approval/Approval1.png  used on input line 2086
+Package pdftex.def Info: images/Approval/Approval1.png  used on input line 2087
 .
 (pdftex.def)             Requested size: 714.61272pt x 361.23608pt.
 
-Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2087--2087
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][]  
  []
 
@@ -2612,16 +2630,16 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Approval/Approval2.png, id=255, 1027.58907pt x 511.9125pt>
 File: images/Approval/Approval2.png Graphic file (type png)
 <use images/Approval/Approval2.png>
-Package pdftex.def Info: images/Approval/Approval2.png  used on input line 2086
+Package pdftex.def Info: images/Approval/Approval2.png  used on input line 2087
 .
 (pdftex.def)             Requested size: 714.61272pt x 356.00078pt.
 
-Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2087--2087
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][]  
  []
 
@@ -2636,16 +2654,16 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Approval/Approval3.png, id=263, 1027.58907pt x 502.12593pt>
 File: images/Approval/Approval3.png Graphic file (type png)
 <use images/Approval/Approval3.png>
-Package pdftex.def Info: images/Approval/Approval3.png  used on input line 2086
+Package pdftex.def Info: images/Approval/Approval3.png  used on input line 2087
 .
 (pdftex.def)             Requested size: 714.61272pt x 349.19487pt.
 
-Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2087--2087
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][]  
  []
 
@@ -2660,16 +2678,16 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Approval/Approval4.png, id=270, 1026.83624pt x 521.69907pt>
 File: images/Approval/Approval4.png Graphic file (type png)
 <use images/Approval/Approval4.png>
-Package pdftex.def Info: images/Approval/Approval4.png  used on input line 2086
+Package pdftex.def Info: images/Approval/Approval4.png  used on input line 2087
 .
 (pdftex.def)             Requested size: 714.61272pt x 363.06937pt.
 
-Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2087--2087
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][]  
  []
 
@@ -2684,16 +2702,16 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Approval/Approval5.png, id=277, 1019.30812pt x 519.44063pt>
 File: images/Approval/Approval5.png Graphic file (type png)
 <use images/Approval/Approval5.png>
-Package pdftex.def Info: images/Approval/Approval5.png  used on input line 2086
+Package pdftex.def Info: images/Approval/Approval5.png  used on input line 2087
 .
 (pdftex.def)             Requested size: 714.61272pt x 364.18456pt.
 
-Overfull \hbox (42.29942pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (42.29942pt too wide) in paragraph at lines 2087--2087
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][]  
  []
 
@@ -2704,14 +2722,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2086 \end{frame}
+l.2087 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][] 
  []
 
@@ -2726,16 +2744,16 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Approval/Approval6.png, id=284, 1025.33063pt x 514.92375pt>
 File: images/Approval/Approval6.png Graphic file (type png)
 <use images/Approval/Approval6.png>
-Package pdftex.def Info: images/Approval/Approval6.png  used on input line 2086
+Package pdftex.def Info: images/Approval/Approval6.png  used on input line 2087
 .
 (pdftex.def)             Requested size: 678.8799pt x 340.935pt.
 
-Overfull \hbox (6.5666pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2087--2087
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][]  
  []
 
@@ -2750,16 +2768,16 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Approval/Approval7.png, id=291, 1027.58907pt x 514.17094pt>
 File: images/Approval/Approval7.png Graphic file (type png)
 <use images/Approval/Approval7.png>
-Package pdftex.def Info: images/Approval/Approval7.png  used on input line 2086
+Package pdftex.def Info: images/Approval/Approval7.png  used on input line 2087
 .
 (pdftex.def)             Requested size: 678.8799pt x 339.69124pt.
 
-Overfull \hbox (6.5666pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2087--2087
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][]  
  []
 
@@ -2774,16 +2792,16 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/Approval/Approval8.png, id=298, 1027.58907pt x 516.42938pt>
 File: images/Approval/Approval8.png Graphic file (type png)
 <use images/Approval/Approval8.png>
-Package pdftex.def Info: images/Approval/Approval8.png  used on input line 2086
+Package pdftex.def Info: images/Approval/Approval8.png  used on input line 2087
 .
 (pdftex.def)             Requested size: 678.8799pt x 341.18329pt.
 
-Overfull \hbox (6.5666pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2087--2087
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2086--2086
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2087--2087
 [][]  
  []
 
@@ -2795,7 +2813,7 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [43
 
  <./images/Approval/Approval8.png>]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2248--2248
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2249--2249
 [][][][]  
  []
 
@@ -2806,7 +2824,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2248 \end{frame}
+l.2249 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2814,10 +2832,10 @@ or  <return>  to continue without it.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <15.5> not available
-(Font)              size <14.4> substituted on input line 2248.
+(Font)              size <14.4> substituted on input line 2249.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2249--2249
 [][] 
  []
 
@@ -2836,14 +2854,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2248 \end{frame}
+l.2249 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2249--2249
 [][] 
  []
 
@@ -2862,14 +2880,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2248 \end{frame}
+l.2249 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2249--2249
 [][] 
  []
 
@@ -2888,14 +2906,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2248 \end{frame}
+l.2249 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2249--2249
 [][] 
  []
 
@@ -2914,14 +2932,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2248 \end{frame}
+l.2249 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2248--2248
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2249--2249
 [][] 
  []
 
@@ -2933,22 +2951,22 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [48
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2413--2413
 [][][][]  
  []
 
 <images/GI/GI1.png, id=331, 1016.29688pt x 517.935pt>
 File: images/GI/GI1.png Graphic file (type png)
 <use images/GI/GI1.png>
-Package pdftex.def Info: images/GI/GI1.png  used on input line 2392.
-(pdftex.def)             Requested size: 714.61272pt x 364.19585pt.
+Package pdftex.def Info: images/GI/GI1.png  used on input line 2413.
+(pdftex.def)             Requested size: 678.8799pt x 345.98724pt.
 
-Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2413--2413
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2413--2413
 [][]  
  []
 
@@ -2963,15 +2981,15 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/GI/GI2.png, id=339, 1026.83624pt x 520.94624pt>
 File: images/GI/GI2.png Graphic file (type png)
 <use images/GI/GI2.png>
-Package pdftex.def Info: images/GI/GI2.png  used on input line 2392.
-(pdftex.def)             Requested size: 714.61272pt x 362.54546pt.
+Package pdftex.def Info: images/GI/GI2.png  used on input line 2413.
+(pdftex.def)             Requested size: 678.8799pt x 344.42175pt.
 
-Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2413--2413
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2413--2413
 [][]  
  []
 
@@ -2986,15 +3004,15 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/GI/GI3.png, id=346, 1020.81375pt x 518.6878pt>
 File: images/GI/GI3.png Graphic file (type png)
 <use images/GI/GI3.png>
-Package pdftex.def Info: images/GI/GI3.png  used on input line 2392.
-(pdftex.def)             Requested size: 714.61272pt x 363.11856pt.
+Package pdftex.def Info: images/GI/GI3.png  used on input line 2413.
+(pdftex.def)             Requested size: 678.8799pt x 344.96263pt.
 
-Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2413--2413
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2413--2413
 [][]  
  []
 
@@ -3009,15 +3027,15 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/GI/GI4.png, id=353, 1027.58907pt x 514.92375pt>
 File: images/GI/GI4.png Graphic file (type png)
 <use images/GI/GI4.png>
-Package pdftex.def Info: images/GI/GI4.png  used on input line 2392.
-(pdftex.def)             Requested size: 714.61272pt x 358.0949pt.
+Package pdftex.def Info: images/GI/GI4.png  used on input line 2413.
+(pdftex.def)             Requested size: 678.8799pt x 340.18857pt.
 
-Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2413--2413
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2413--2413
 [][]  
  []
 
@@ -3032,15 +3050,15 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 <images/GI/GI5.png, id=360, 1026.08344pt x 519.44063pt>
 File: images/GI/GI5.png Graphic file (type png)
 <use images/GI/GI5.png>
-Package pdftex.def Info: images/GI/GI5.png  used on input line 2392.
-(pdftex.def)             Requested size: 714.61272pt x 361.76712pt.
+Package pdftex.def Info: images/GI/GI5.png  used on input line 2413.
+(pdftex.def)             Requested size: 678.8799pt x 343.67203pt.
 
-Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2413--2413
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2413--2413
 [][]  
  []
 
@@ -3052,34 +3070,19 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [53
 
  <./images/GI/GI5.png>]
+<images/GI/GI6.png, id=367, 627.84563pt x 405.515pt>
+File: images/GI/GI6.png Graphic file (type png)
+<use images/GI/GI6.png>
+Package pdftex.def Info: images/GI/GI6.png  used on input line 2413.
+(pdftex.def)             Requested size: 678.8799pt x 438.49417pt.
 
-LaTeX Warning: File `images/GI/GI6.png' not found on input line 2392.
-
-
-! Package pdftex.def Error: File `images/GI/GI6.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2392 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2413--2413
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2413--2413
 [][]  
- []
-
-
-Overfull \vbox (283.0719pt too high) detected at line 2392
  []
 
 
@@ -3089,35 +3092,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [54
 
-]
+ <./images/GI/GI6.png>]
+<images/GI/GI7.png, id=374, 962.59625pt x 467.24562pt>
+File: images/GI/GI7.png Graphic file (type png)
+<use images/GI/GI7.png>
+Package pdftex.def Info: images/GI/GI7.png  used on input line 2413.
+(pdftex.def)             Requested size: 678.8799pt x 329.53653pt.
 
-LaTeX Warning: File `images/GI/GI7.png' not found on input line 2392.
-
-
-! Package pdftex.def Error: File `images/GI/GI7.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2392 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (37.59947pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2413--2413
  [] 
  []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2392--2392
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2413--2413
 [][]  
- []
-
-
-Overfull \vbox (283.0719pt too high) detected at line 2392
  []
 
 
@@ -3127,52 +3115,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [55
 
-]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2473--2473
-[][][][]  
+ <./images/GI/GI7.png>]
+<images/GI/GI8.png, id=382, 959.585pt x 472.76625pt>
+File: images/GI/GI8.png Graphic file (type png)
+<use images/GI/GI8.png>
+Package pdftex.def Info: images/GI/GI8.png  used on input line 2413.
+(pdftex.def)             Requested size: 678.8799pt x 334.46889pt.
+
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2413--2413
+ [] 
  []
 
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2413--2413
 [][]  
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
-[][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3182,48 +3138,24 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [56
 
-]
+ <./images/GI/GI8.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2612--2612
+[][][][]  
+ []
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
+<images/GR/GR1.png, id=389, 962.59625pt x 475.7775pt>
+File: images/GR/GR1.png Graphic file (type png)
+<use images/GR/GR1.png>
+Package pdftex.def Info: images/GR/GR1.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 335.55385pt.
 
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
+ []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
 [][]  
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
-[][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3233,48 +3165,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [57
 
-]
+ <./images/GR/GR1.png>]
+<images/GR/GR2.png, id=396, 956.57375pt x 471.26062pt>
+File: images/GR/GR2.png Graphic file (type png)
+<use images/GR/GR2.png>
+Package pdftex.def Info: images/GR/GR2.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 334.45357pt.
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
+ []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
 [][]  
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
-[][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3284,48 +3188,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [58
 
-]
+ <./images/GR/GR2.png>]
+<images/GR/GR3.png, id=403, 956.57375pt x 474.27188pt>
+File: images/GR/GR3.png Graphic file (type png)
+<use images/GR/GR3.png>
+Package pdftex.def Info: images/GR/GR3.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 336.59065pt.
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
+ []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
 [][]  
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
-[][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3335,48 +3211,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [59
 
-]
+ <./images/GR/GR3.png>]
+<images/GR/GR4.png, id=410, 958.07938pt x 472.76625pt>
+File: images/GR/GR4.png Graphic file (type png)
+<use images/GR/GR4.png>
+Package pdftex.def Info: images/GR/GR4.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 334.9955pt.
 
-LaTeX Warning: File `images/goods-issue.png' not found on input line 2473.
-
-
-! Package pdftex.def Error: File `images/goods-issue.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
+ []
 
 
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
 [][]  
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 \end{frame}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2473--2473
-[][] 
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2473
  []
 
 
@@ -3386,42 +3234,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [60
 
-]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2556--2556
-[][][][]  
+ <./images/GR/GR4.png>]
+<images/GR/GR5.png, id=417, 961.09062pt x 474.27188pt>
+File: images/GR/GR5.png Graphic file (type png)
+<use images/GR/GR5.png>
+Package pdftex.def Info: images/GR/GR5.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 335.01303pt.
+
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
  []
 
 
-LaTeX Warning: File `images/current-stock.png' not found on input line 2556.
-
-
-! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2556 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2556--2556
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
 [][]  
- []
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 2556.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 2556.
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2556
  []
 
 
@@ -3431,30 +3257,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [61
 
-]
+ <./images/GR/GR5.png>]
+<images/GR/GR6.png, id=425, 961.09062pt x 470.25688pt>
+File: images/GR/GR6.png Graphic file (type png)
+<use images/GR/GR6.png>
+Package pdftex.def Info: images/GR/GR6.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 332.17694pt.
 
-LaTeX Warning: File `images/current-stock.png' not found on input line 2556.
-
-
-! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2556 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2556--2556
-[][]  
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2556
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
+[][]  
  []
 
 
@@ -3464,30 +3280,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [62
 
-]
+ <./images/GR/GR6.png>]
+<images/GR/GR7.png, id=432, 959.585pt x 475.7775pt>
+File: images/GR/GR7.png Graphic file (type png)
+<use images/GR/GR7.png>
+Package pdftex.def Info: images/GR/GR7.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 336.59926pt.
 
-LaTeX Warning: File `images/current-stock.png' not found on input line 2556.
-
-
-! Package pdftex.def Error: File `images/current-stock.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2556 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2556--2556
-[][]  
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2556
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
+[][]  
  []
 
 
@@ -3497,34 +3303,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [63
 
-]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2629--2629
-[][][][]  
+ <./images/GR/GR7.png>]
+<images/GR/GR8.png, id=439, 959.585pt x 473.26813pt>
+File: images/GR/GR8.png Graphic file (type png)
+<use images/GR/GR8.png>
+Package pdftex.def Info: images/GR/GR8.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 334.82394pt.
+
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
  []
 
 
-LaTeX Warning: File `images/report.png' not found on input line 2629.
-
-
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2629 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
 [][]  
- []
-
-
-Overfull \vbox (282.0719pt too high) detected at line 2629
  []
 
 
@@ -3534,30 +3326,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [64
 
-]
+ <./images/GR/GR8.png>]
+<images/GR/GR9.png, id=446, 1027.84pt x 685.56125pt>
+File: images/GR/GR9.png Graphic file (type png)
+<use images/GR/GR9.png>
+Package pdftex.def Info: images/GR/GR9.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 452.81703pt.
 
-LaTeX Warning: File `images/report.png' not found on input line 2629.
-
-
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2629 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
-[][]  
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2629
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
+[][]  
  []
 
 
@@ -3567,30 +3349,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [65
 
-]
+ <./images/GR/GR9.png>]
+<images/GR/GR10.png, id=453, 956.57375pt x 471.26062pt>
+File: images/GR/GR10.png Graphic file (type png)
+<use images/GR/GR10.png>
+Package pdftex.def Info: images/GR/GR10.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 334.45357pt.
 
-LaTeX Warning: File `images/report.png' not found on input line 2629.
-
-
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2629 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
-[][]  
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2629
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
+[][]  
  []
 
 
@@ -3600,30 +3372,20 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [66
 
-]
+ <./images/GR/GR10.png>]
+<images/GR/GR11.png, id=460, 962.59625pt x 474.27188pt>
+File: images/GR/GR11.png Graphic file (type png)
+<use images/GR/GR11.png>
+Package pdftex.def Info: images/GR/GR11.png  used on input line 2612.
+(pdftex.def)             Requested size: 678.8799pt x 334.49199pt.
 
-LaTeX Warning: File `images/report.png' not found on input line 2629.
-
-
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2629 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
-[][]  
+Overfull \hbox (20.6664pt too wide) in paragraph at lines 2612--2612
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2629
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2612--2612
+[][]  
  []
 
 
@@ -3633,30 +3395,32 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [67
 
-]
-
-LaTeX Warning: File `images/report.png' not found on input line 2629.
-
-
-! Package pdftex.def Error: File `images/report.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2629 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2629--2629
-[][]  
+ <./images/GR/GR11.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2650--2650
+[][][][]  
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2629
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2650 \end{frame}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (1.0pt too wide) in paragraph at lines 2650--2650
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2650--2650
+
  []
 
 
@@ -3667,33 +3431,24 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 [68
 
 ]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2696--2696
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2800--2800
 [][][][]  
  []
 
+<images/Master Item/CreateItem1.png, id=473, 959.585pt x 473.26813pt>
+File: images/Master Item/CreateItem1.png Graphic file (type png)
+<use images/Master Item/CreateItem1.png>
+Package pdftex.def Info: images/Master Item/CreateItem1.png  used on input line
+ 2800.
+(pdftex.def)             Requested size: 678.8799pt x 334.82394pt.
 
-LaTeX Warning: File `images/discussion.png' not found on input line 2696.
-
-
-! Package pdftex.def Error: File `images/discussion.png' not found: using draft
- setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2696 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2696--2696
-[][]  
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2800--2800
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2696
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2800--2800
+[][]  
  []
 
 
@@ -3703,30 +3458,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [69
 
-]
+ <./images/Master Item/CreateItem1.png>]
+<images/Master Item/CreateItem2.png, id=480, 962.59625pt x 472.76625pt>
+File: images/Master Item/CreateItem2.png Graphic file (type png)
+<use images/Master Item/CreateItem2.png>
+Package pdftex.def Info: images/Master Item/CreateItem2.png  used on input line
+ 2800.
+(pdftex.def)             Requested size: 678.8799pt x 333.4301pt.
 
-LaTeX Warning: File `images/discussion.png' not found on input line 2696.
-
-
-! Package pdftex.def Error: File `images/discussion.png' not found: using draft
- setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2696 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2696--2696
-[][]  
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2800--2800
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2696
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2800--2800
+[][]  
  []
 
 
@@ -3736,30 +3482,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [70
 
-]
+ <./images/Master Item/CreateItem2.png>]
+<images/Master Item/CreateItem3.png, id=487, 962.59625pt x 479.29062pt>
+File: images/Master Item/CreateItem3.png Graphic file (type png)
+<use images/Master Item/CreateItem3.png>
+Package pdftex.def Info: images/Master Item/CreateItem3.png  used on input line
+ 2800.
+(pdftex.def)             Requested size: 678.8799pt x 338.03157pt.
 
-LaTeX Warning: File `images/discussion.png' not found on input line 2696.
-
-
-! Package pdftex.def Error: File `images/discussion.png' not found: using draft
- setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2696 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2696--2696
-[][]  
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2800--2800
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2696
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2800--2800
+[][]  
  []
 
 
@@ -3769,30 +3506,21 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [71
 
-]
+ <./images/Master Item/CreateItem3.png>]
+<images/Master Item/CreateItem4.png, id=494, 962.59625pt x 471.26062pt>
+File: images/Master Item/CreateItem4.png Graphic file (type png)
+<use images/Master Item/CreateItem4.png>
+Package pdftex.def Info: images/Master Item/CreateItem4.png  used on input line
+ 2800.
+(pdftex.def)             Requested size: 678.8799pt x 332.36823pt.
 
-LaTeX Warning: File `images/discussion.png' not found on input line 2696.
-
-
-! Package pdftex.def Error: File `images/discussion.png' not found: using draft
- setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2696 \end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.99998pt too wide) in paragraph at lines 2696--2696
-[][]  
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2800--2800
+ [] 
  []
 
 
-Overfull \vbox (282.0719pt too high) detected at line 2696
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2800--2800
+[][]  
  []
 
 
@@ -3802,19 +3530,22 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [72
 
-]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2752--2752
-[][][][]  
+ <./images/Master Item/CreateItem4.png>]
+<images/Master Item/CreateItem5.png, id=501, 958.07938pt x 472.76625pt>
+File: images/Master Item/CreateItem5.png Graphic file (type png)
+<use images/Master Item/CreateItem5.png>
+Package pdftex.def Info: images/Master Item/CreateItem5.png  used on input line
+ 2800.
+(pdftex.def)             Requested size: 678.8799pt x 334.9955pt.
+
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2800--2800
+ [] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <15.5> on input line 2752.
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15.5> not available
-(Font)              size <14.4> substituted on input line 2752.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15.5> not available
-(Font)              size <14.4> substituted on input line 2752.
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2800--2800
+[][]  
+ []
 
 
 Overfull \hbox (6.37508pt too wide) has occurred while \output is active
@@ -3823,14 +3554,22 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [73
 
-]
-Overfull \hbox (6.37508pt too wide) in paragraph at lines 2802--2802
-[][][][]  
+ <./images/Master Item/CreateItem5.png>]
+<images/Master Item/CreateItem6.png, id=509, 958.07938pt x 467.24562pt>
+File: images/Master Item/CreateItem6.png Graphic file (type png)
+<use images/Master Item/CreateItem6.png>
+Package pdftex.def Info: images/Master Item/CreateItem6.png  used on input line
+ 2800.
+(pdftex.def)             Requested size: 678.8799pt x 331.08365pt.
+
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2800--2800
+ [] 
  []
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 2802.
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2800--2800
+[][]  
+ []
 
 
 Overfull \hbox (6.37508pt too wide) has occurred while \output is active
@@ -3839,18 +3578,58 @@ Overfull \hbox (6.37508pt too wide) has occurred while \output is active
 
 [74
 
-]
+ <./images/Master Item/CreateItem6.png>]
+<images/Master Item/CreateItem7.png, id=516, 956.57375pt x 472.76625pt>
+File: images/Master Item/CreateItem7.png Graphic file (type png)
+<use images/Master Item/CreateItem7.png>
+Package pdftex.def Info: images/Master Item/CreateItem7.png  used on input line
+ 2800.
+(pdftex.def)             Requested size: 678.8799pt x 335.52211pt.
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 2868.
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2800--2800
+ [] 
+ []
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 2868.
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2800--2800
+[][]  
+ []
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 2868.
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[75
+
+ <./images/Master Item/CreateItem7.png>]
+<images/Master Item/CreateItem8.png, id=523, 1027.58907pt x 516.42938pt>
+File: images/Master Item/CreateItem8.png Graphic file (type png)
+<use images/Master Item/CreateItem8.png>
+Package pdftex.def Info: images/Master Item/CreateItem8.png  used on input line
+ 2800.
+(pdftex.def)             Requested size: 678.8799pt x 341.18329pt.
+
+Overfull \hbox (6.5666pt too wide) in paragraph at lines 2800--2800
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2800--2800
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[76
+
+ <./images/Master Item/CreateItem8.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2902--2902
+[][][][]  
+ []
 
 
 ! LaTeX Error: There's no line here to end.
@@ -3859,13 +3638,434 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2868 \end{frame}
+l.2902 \end{frame}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[75
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 2902--2902
+ [][] 
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[77
+
+]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 2976--2976
+[][][][]  
+ []
+
+<images/Reports/CurrentStock.png, id=535, 1026.08344pt x 518.6878pt>
+File: images/Reports/CurrentStock.png Graphic file (type png)
+<use images/Reports/CurrentStock.png>
+Package pdftex.def Info: images/Reports/CurrentStock.png  used on input line 29
+76.
+(pdftex.def)             Requested size: 654.37093pt x 330.7877pt.
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[78
+
+ <./images/Reports/CurrentStock.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 3056--3056
+[][][][]  
+ []
+
+<images/Reports/StockClosing.png, id=542, 1026.08344pt x 523.9575pt>
+File: images/Reports/StockClosing.png Graphic file (type png)
+<use images/Reports/StockClosing.png>
+Package pdftex.def Info: images/Reports/StockClosing.png  used on input line 30
+56.
+(pdftex.def)             Requested size: 654.37093pt x 334.1484pt.
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[79
+
+ <./images/Reports/StockClosing.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 3140--3140
+[][][][]  
+ []
+
+<images/Reports/MutationReport.png, id=550, 1027.58907pt x 521.69907pt>
+File: images/Reports/MutationReport.png Graphic file (type png)
+<use images/Reports/MutationReport.png>
+Package pdftex.def Info: images/Reports/MutationReport.png  used on input line 
+3140.
+(pdftex.def)             Requested size: 654.37093pt x 332.22252pt.
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[80
+
+ <./images/Reports/MutationReport.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 3216--3216
+[][][][]  
+ []
+
+<images/Reports/RequestReport.png, id=557, 1027.58907pt x 517.18219pt>
+File: images/Reports/RequestReport.png Graphic file (type png)
+<use images/Reports/RequestReport.png>
+Package pdftex.def Info: images/Reports/RequestReport.png  used on input line 3
+216.
+(pdftex.def)             Requested size: 654.37093pt x 329.34613pt.
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[81
+
+ <./images/Reports/RequestReport.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 3290--3290
+[][][][]  
+ []
+
+<images/Discussion/Discussion1.png, id=564, 1025.33063pt x 517.18219pt>
+File: images/Discussion/Discussion1.png Graphic file (type png)
+<use images/Discussion/Discussion1.png>
+Package pdftex.def Info: images/Discussion/Discussion1.png  used on input line 
+3290.
+(pdftex.def)             Requested size: 654.37093pt x 330.07216pt.
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[82
+
+ <./images/Discussion/Discussion1.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 3415--3415
+[][][][]  
+ []
+
+File: images/Discussion/Discussion1.png Graphic file (type png)
+<use images/Discussion/Discussion1.png>
+Package pdftex.def Info: images/Discussion/Discussion1.png  used on input line 
+3415.
+(pdftex.def)             Requested size: 678.8799pt x 342.43033pt.
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3415--3415
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[83
+
+]
+<images/Discussion/Discussion2.png, id=576, 1026.08344pt x 517.935pt>
+File: images/Discussion/Discussion2.png Graphic file (type png)
+<use images/Discussion/Discussion2.png>
+Package pdftex.def Info: images/Discussion/Discussion2.png  used on input line 
+3415.
+(pdftex.def)             Requested size: 678.8799pt x 342.67586pt.
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3415--3415
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[84
+
+ <./images/Discussion/Discussion2.png>]
+<images/Discussion/Discussion3.png, id=583, 1027.58907pt x 518.6878pt>
+File: images/Discussion/Discussion3.png Graphic file (type png)
+<use images/Discussion/Discussion3.png>
+Package pdftex.def Info: images/Discussion/Discussion3.png  used on input line 
+3415.
+(pdftex.def)             Requested size: 678.8799pt x 342.67534pt.
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3415--3415
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[85
+
+ <./images/Discussion/Discussion3.png>]
+<images/Discussion/Discussion4.png, id=591, 1025.33063pt x 516.42938pt>
+File: images/Discussion/Discussion4.png Graphic file (type png)
+<use images/Discussion/Discussion4.png>
+Package pdftex.def Info: images/Discussion/Discussion4.png  used on input line 
+3415.
+(pdftex.def)             Requested size: 678.8799pt x 341.93188pt.
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3415--3415
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[86
+
+ <./images/Discussion/Discussion4.png>]
+<images/Discussion/Discussion5.png, id=598, 1027.58907pt x 519.44063pt>
+File: images/Discussion/Discussion5.png Graphic file (type png)
+<use images/Discussion/Discussion5.png>
+Package pdftex.def Info: images/Discussion/Discussion5.png  used on input line 
+3415.
+(pdftex.def)             Requested size: 678.8799pt x 343.1727pt.
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3415--3415
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[87
+
+ <./images/Discussion/Discussion5.png>]
+<images/Discussion/Discussion6.png, id=605, 1027.58907pt x 520.94624pt>
+File: images/Discussion/Discussion6.png Graphic file (type png)
+<use images/Discussion/Discussion6.png>
+Package pdftex.def Info: images/Discussion/Discussion6.png  used on input line 
+3415.
+(pdftex.def)             Requested size: 678.8799pt x 344.16739pt.
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3415--3415
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[88
+
+ <./images/Discussion/Discussion6.png>]
+Overfull \hbox (6.37508pt too wide) in paragraph at lines 3551--3551
+[][][][]  
+ []
+
+<images/Discussion/Discussion7.png, id=612, 1020.06094pt x 506.6428pt>
+File: images/Discussion/Discussion7.png Graphic file (type png)
+<use images/Discussion/Discussion7.png>
+Package pdftex.def Info: images/Discussion/Discussion7.png  used on input line 
+3551.
+(pdftex.def)             Requested size: 678.8799pt x 337.19928pt.
+
+Overfull \hbox (1.86665pt too wide) in paragraph at lines 3551--3551
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3551--3551
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[89
+
+ <./images/Discussion/Discussion7.png>]
+<images/Discussion/Discussion8.png, id=619, 1027.58907pt x 521.69907pt>
+File: images/Discussion/Discussion8.png Graphic file (type png)
+<use images/Discussion/Discussion8.png>
+Package pdftex.def Info: images/Discussion/Discussion8.png  used on input line 
+3551.
+(pdftex.def)             Requested size: 678.8799pt x 344.66473pt.
+
+Overfull \hbox (1.86665pt too wide) in paragraph at lines 3551--3551
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3551--3551
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[90
+
+ <./images/Discussion/Discussion8.png>]
+<images/Discussion/Discussion9.png, id=626, 1027.58907pt x 514.92375pt>
+File: images/Discussion/Discussion9.png Graphic file (type png)
+<use images/Discussion/Discussion9.png>
+Package pdftex.def Info: images/Discussion/Discussion9.png  used on input line 
+3551.
+(pdftex.def)             Requested size: 678.8799pt x 340.18857pt.
+
+Overfull \hbox (1.86665pt too wide) in paragraph at lines 3551--3551
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3551--3551
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[91
+
+ <./images/Discussion/Discussion9.png>]
+<images/Discussion/Discussion10.png, id=634, 1027.58907pt x 519.44063pt>
+File: images/Discussion/Discussion10.png Graphic file (type png)
+<use images/Discussion/Discussion10.png>
+Package pdftex.def Info: images/Discussion/Discussion10.png  used on input line
+ 3551.
+(pdftex.def)             Requested size: 678.8799pt x 343.1727pt.
+
+Overfull \hbox (1.86665pt too wide) in paragraph at lines 3551--3551
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3551--3551
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[92
+
+ <./images/Discussion/Discussion10.png>]
+<images/Discussion/Discussion11.png, id=641, 1023.825pt x 507.39563pt>
+File: images/Discussion/Discussion11.png Graphic file (type png)
+<use images/Discussion/Discussion11.png>
+Package pdftex.def Info: images/Discussion/Discussion11.png  used on input line
+ 3551.
+(pdftex.def)             Requested size: 678.8799pt x 336.44608pt.
+
+Overfull \hbox (1.86665pt too wide) in paragraph at lines 3551--3551
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3551--3551
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[93
+
+ <./images/Discussion/Discussion11.png>]
+<images/Discussion/Discussion12.png, id=648, 1027.58907pt x 508.14844pt>
+File: images/Discussion/Discussion12.png Graphic file (type png)
+<use images/Discussion/Discussion12.png>
+Package pdftex.def Info: images/Discussion/Discussion12.png  used on input line
+ 3551.
+(pdftex.def)             Requested size: 678.8799pt x 335.7124pt.
+
+Overfull \hbox (1.86665pt too wide) in paragraph at lines 3551--3551
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3551--3551
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[94
+
+ <./images/Discussion/Discussion12.png>]
+<images/Discussion/Discussion13.png, id=655, 1027.58907pt x 517.935pt>
+File: images/Discussion/Discussion13.png Graphic file (type png)
+<use images/Discussion/Discussion13.png>
+Package pdftex.def Info: images/Discussion/Discussion13.png  used on input line
+ 3551.
+(pdftex.def)             Requested size: 678.8799pt x 342.17798pt.
+
+Overfull \hbox (1.86665pt too wide) in paragraph at lines 3551--3551
+ [] 
+ []
+
+
+Overfull \hbox (0.99998pt too wide) in paragraph at lines 3551--3551
+[][]  
+ []
+
+
+Overfull \hbox (6.37508pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[95
+
+ <./images/Discussion/Discussion13.png>]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <38> not available
+(Font)              size <35.83> substituted on input line 3618.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <38> not available
+(Font)              size <35.83> substituted on input line 3618.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 3618.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 3618.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3618 	\end{frame}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[96
 
 ]
 \tf@nav=\write6
@@ -3894,13 +4094,13 @@ Package rerunfilecheck Info: File `"main_untuk Admin".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25819 strings out of 467870
- 516983 string characters out of 5419323
- 888088 words of memory out of 5000000
- 54042 multiletter control sequences out of 15000+600000
- 656906 words of font info for 147 fonts, out of 8000000 for 9000
+ 29076 strings out of 467870
+ 590935 string characters out of 5419323
+ 936798 words of memory out of 5000000
+ 57237 multiletter control sequences out of 15000+600000
+ 653633 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,123p,395b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,123p,395b,1071s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/TJI/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 mi12.pfb><C:/Users/TJI/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmss10.pfb><C:/Users/TJI/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -3913,9 +4113,9 @@ cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/TJI/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/
 TJI/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pf
 b>
-Output written on "main_untuk Admin.pdf" (75 pages, 3102489 bytes).
+Output written on "main_untuk Admin.pdf" (96 pages, 7203270 bytes).
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 753 PDF objects out of 1000 (max. 8388607)
+ 193 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
